@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018F58E324E52E0800F44C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F58E224E52E0800F44C47 /* AppDelegate.swift */; };
+		018F58E524E52E0800F44C47 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 018F58E424E52E0800F44C47 /* GameScene.sks */; };
+		018F58E724E52E0800F44C47 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 018F58E624E52E0800F44C47 /* Actions.sks */; };
+		018F58E924E52E0800F44C47 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F58E824E52E0800F44C47 /* GameScene.swift */; };
+		018F58EB24E52E0800F44C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F58EA24E52E0800F44C47 /* ViewController.swift */; };
+		018F58ED24E52E0A00F44C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018F58EC24E52E0A00F44C47 /* Assets.xcassets */; };
+		018F58F024E52E0A00F44C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018F58EE24E52E0A00F44C47 /* Main.storyboard */; };
+		018F58FC24E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F58FB24E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.swift */; };
+		018F590724E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018F590624E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018F58F824E52E0A00F44C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018F58D724E52E0800F44C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018F58DE24E52E0800F44C47;
+			remoteInfo = Solar_Conqueror_Sources;
+		};
+		018F590324E52E0A00F44C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018F58D724E52E0800F44C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018F58DE24E52E0800F44C47;
+			remoteInfo = Solar_Conqueror_Sources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018F58DF24E52E0800F44C47 /* Solar_Conqueror_Sources.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solar_Conqueror_Sources.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018F58E224E52E0800F44C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		018F58E424E52E0800F44C47 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		018F58E624E52E0800F44C47 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		018F58E824E52E0800F44C47 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		018F58EA24E52E0800F44C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		018F58EC24E52E0A00F44C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		018F58EF24E52E0A00F44C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		018F58F124E52E0A00F44C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018F58F224E52E0A00F44C47 /* Solar_Conqueror_Sources.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Solar_Conqueror_Sources.entitlements; sourceTree = "<group>"; };
+		018F58F724E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solar_Conqueror_SourcesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018F58FB24E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_Conqueror_SourcesTests.swift; sourceTree = "<group>"; };
+		018F58FD24E52E0A00F44C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018F590224E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solar_Conqueror_SourcesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018F590624E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_Conqueror_SourcesUITests.swift; sourceTree = "<group>"; };
+		018F590824E52E0A00F44C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018F58DC24E52E0800F44C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018F58F424E52E0A00F44C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018F58FF24E52E0A00F44C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018F58D624E52E0800F44C47 = {
+			isa = PBXGroup;
+			children = (
+				018F58E124E52E0800F44C47 /* Solar_Conqueror_Sources */,
+				018F58FA24E52E0A00F44C47 /* Solar_Conqueror_SourcesTests */,
+				018F590524E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests */,
+				018F58E024E52E0800F44C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		018F58E024E52E0800F44C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				018F58DF24E52E0800F44C47 /* Solar_Conqueror_Sources.app */,
+				018F58F724E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.xctest */,
+				018F590224E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		018F58E124E52E0800F44C47 /* Solar_Conqueror_Sources */ = {
+			isa = PBXGroup;
+			children = (
+				018F58E224E52E0800F44C47 /* AppDelegate.swift */,
+				018F58E424E52E0800F44C47 /* GameScene.sks */,
+				018F58E624E52E0800F44C47 /* Actions.sks */,
+				018F58E824E52E0800F44C47 /* GameScene.swift */,
+				018F58EA24E52E0800F44C47 /* ViewController.swift */,
+				018F58EC24E52E0A00F44C47 /* Assets.xcassets */,
+				018F58EE24E52E0A00F44C47 /* Main.storyboard */,
+				018F58F124E52E0A00F44C47 /* Info.plist */,
+				018F58F224E52E0A00F44C47 /* Solar_Conqueror_Sources.entitlements */,
+			);
+			path = Solar_Conqueror_Sources;
+			sourceTree = "<group>";
+		};
+		018F58FA24E52E0A00F44C47 /* Solar_Conqueror_SourcesTests */ = {
+			isa = PBXGroup;
+			children = (
+				018F58FB24E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.swift */,
+				018F58FD24E52E0A00F44C47 /* Info.plist */,
+			);
+			path = Solar_Conqueror_SourcesTests;
+			sourceTree = "<group>";
+		};
+		018F590524E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				018F590624E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.swift */,
+				018F590824E52E0A00F44C47 /* Info.plist */,
+			);
+			path = Solar_Conqueror_SourcesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018F58DE24E52E0800F44C47 /* Solar_Conqueror_Sources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018F590B24E52E0A00F44C47 /* Build configuration list for PBXNativeTarget "Solar_Conqueror_Sources" */;
+			buildPhases = (
+				018F58DB24E52E0800F44C47 /* Sources */,
+				018F58DC24E52E0800F44C47 /* Frameworks */,
+				018F58DD24E52E0800F44C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solar_Conqueror_Sources;
+			productName = Solar_Conqueror_Sources;
+			productReference = 018F58DF24E52E0800F44C47 /* Solar_Conqueror_Sources.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018F58F624E52E0A00F44C47 /* Solar_Conqueror_SourcesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018F590E24E52E0A00F44C47 /* Build configuration list for PBXNativeTarget "Solar_Conqueror_SourcesTests" */;
+			buildPhases = (
+				018F58F324E52E0A00F44C47 /* Sources */,
+				018F58F424E52E0A00F44C47 /* Frameworks */,
+				018F58F524E52E0A00F44C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018F58F924E52E0A00F44C47 /* PBXTargetDependency */,
+			);
+			name = Solar_Conqueror_SourcesTests;
+			productName = Solar_Conqueror_SourcesTests;
+			productReference = 018F58F724E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		018F590124E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018F591124E52E0A00F44C47 /* Build configuration list for PBXNativeTarget "Solar_Conqueror_SourcesUITests" */;
+			buildPhases = (
+				018F58FE24E52E0A00F44C47 /* Sources */,
+				018F58FF24E52E0A00F44C47 /* Frameworks */,
+				018F590024E52E0A00F44C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018F590424E52E0A00F44C47 /* PBXTargetDependency */,
+			);
+			name = Solar_Conqueror_SourcesUITests;
+			productName = Solar_Conqueror_SourcesUITests;
+			productReference = 018F590224E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018F58D724E52E0800F44C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Xiaolin Wang";
+				TargetAttributes = {
+					018F58DE24E52E0800F44C47 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					018F58F624E52E0A00F44C47 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 018F58DE24E52E0800F44C47;
+					};
+					018F590124E52E0A00F44C47 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 018F58DE24E52E0800F44C47;
+					};
+				};
+			};
+			buildConfigurationList = 018F58DA24E52E0800F44C47 /* Build configuration list for PBXProject "Solar_Conqueror_Sources" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 018F58D624E52E0800F44C47;
+			productRefGroup = 018F58E024E52E0800F44C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018F58DE24E52E0800F44C47 /* Solar_Conqueror_Sources */,
+				018F58F624E52E0A00F44C47 /* Solar_Conqueror_SourcesTests */,
+				018F590124E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		018F58DD24E52E0800F44C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018F58E524E52E0800F44C47 /* GameScene.sks in Resources */,
+				018F58ED24E52E0A00F44C47 /* Assets.xcassets in Resources */,
+				018F58E724E52E0800F44C47 /* Actions.sks in Resources */,
+				018F58F024E52E0A00F44C47 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018F58F524E52E0A00F44C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018F590024E52E0A00F44C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018F58DB24E52E0800F44C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018F58EB24E52E0800F44C47 /* ViewController.swift in Sources */,
+				018F58E924E52E0800F44C47 /* GameScene.swift in Sources */,
+				018F58E324E52E0800F44C47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018F58F324E52E0A00F44C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018F58FC24E52E0A00F44C47 /* Solar_Conqueror_SourcesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018F58FE24E52E0A00F44C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018F590724E52E0A00F44C47 /* Solar_Conqueror_SourcesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018F58F924E52E0A00F44C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018F58DE24E52E0800F44C47 /* Solar_Conqueror_Sources */;
+			targetProxy = 018F58F824E52E0A00F44C47 /* PBXContainerItemProxy */;
+		};
+		018F590424E52E0A00F44C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018F58DE24E52E0800F44C47 /* Solar_Conqueror_Sources */;
+			targetProxy = 018F590324E52E0A00F44C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		018F58EE24E52E0A00F44C47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018F58EF24E52E0A00F44C47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		018F590924E52E0A00F44C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		018F590A24E52E0A00F44C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		018F590C24E52E0A00F44C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Solar_Conqueror_Sources/Solar_Conqueror_Sources.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Solar_Conqueror_Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror-Sources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		018F590D24E52E0A00F44C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Solar_Conqueror_Sources/Solar_Conqueror_Sources.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Solar_Conqueror_Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror-Sources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		018F590F24E52E0A00F44C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				INFOPLIST_FILE = Solar_Conqueror_SourcesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror-SourcesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar_Conqueror_Sources.app/Contents/MacOS/Solar_Conqueror_Sources";
+			};
+			name = Debug;
+		};
+		018F591024E52E0A00F44C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				INFOPLIST_FILE = Solar_Conqueror_SourcesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror-SourcesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar_Conqueror_Sources.app/Contents/MacOS/Solar_Conqueror_Sources";
+			};
+			name = Release;
+		};
+		018F591224E52E0A00F44C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				INFOPLIST_FILE = Solar_Conqueror_SourcesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror-SourcesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Solar_Conqueror_Sources;
+			};
+			name = Debug;
+		};
+		018F591324E52E0A00F44C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6HYW2VTE2N;
+				INFOPLIST_FILE = Solar_Conqueror_SourcesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror-SourcesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Solar_Conqueror_Sources;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018F58DA24E52E0800F44C47 /* Build configuration list for PBXProject "Solar_Conqueror_Sources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018F590924E52E0A00F44C47 /* Debug */,
+				018F590A24E52E0A00F44C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018F590B24E52E0A00F44C47 /* Build configuration list for PBXNativeTarget "Solar_Conqueror_Sources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018F590C24E52E0A00F44C47 /* Debug */,
+				018F590D24E52E0A00F44C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018F590E24E52E0A00F44C47 /* Build configuration list for PBXNativeTarget "Solar_Conqueror_SourcesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018F590F24E52E0A00F44C47 /* Debug */,
+				018F591024E52E0A00F44C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018F591124E52E0A00F44C47 /* Build configuration list for PBXNativeTarget "Solar_Conqueror_SourcesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018F591224E52E0A00F44C47 /* Debug */,
+				018F591324E52E0A00F44C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 018F58D724E52E0800F44C47 /* Project object */;
+}
