@@ -13,7 +13,7 @@ class MoveShips: GKComponent {
             }
             for planet in sources {
                 if !planet.isForceTouched {
-                    let number = planet.population / 2
+                    let number = planet.population == 1 ? 1 : (planet.population / 2)
                     planet.population -= number
                     self.scene.createRocketArmy(from: planet, to: target, number: number, performer: self.father.identity)
                 }
