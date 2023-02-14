@@ -62,6 +62,7 @@ public class InteractableScene: SKScene {
         scaleMode = .aspectFit
     }
     
+    #if os(macOS)
     override public func mouseDown(with event: NSEvent) {
         super.mouseDown(with: event)
         if let planet = planetAtThisLocation(point: event.location(in: self)) {
@@ -144,6 +145,7 @@ public class InteractableScene: SKScene {
             }
         }
     }
+    #endif
     
     override public func didMove(to view: SKView) {
         super.didMove(to: view)

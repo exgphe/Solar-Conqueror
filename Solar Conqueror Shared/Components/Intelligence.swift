@@ -93,7 +93,7 @@ class Intelligence: GKComponent {
         // Check for attack grades for all my planets and sort them
         //        print("c")
         for thisPlanet in me.ownedPlanets {
-            if thisPlanet.isNotEqual(to: targetPlanet) {
+            if !thisPlanet.isEqual(to: targetPlanet) {
                 let distance = Float(thisPlanet.distanceTo[targetPlanet]!)
                 self.attackEvaluateRuleSystem.state.setDictionary(["planet": thisPlanet, "distance": Float(distance)])
                 self.attackEvaluateRuleSystem.reset()

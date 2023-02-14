@@ -85,6 +85,7 @@ public class CardsScene: InteractableScene {
         self.cards[self.currentCardIndex].switchedOn()
     }
     
+    #if os(macOS)
     override public func mouseUp(with event: NSEvent) {
         super.mouseUp(with: event)
         let location = event.location(in: self)
@@ -126,6 +127,7 @@ public class CardsScene: InteractableScene {
             card.mouseDraggedFromScene(nodes: self.nodes(at: location))
         }
     }
+    #endif
     
     override public func update(_ currentTime: TimeInterval) {
         super.update(currentTime)

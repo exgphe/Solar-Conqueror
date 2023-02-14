@@ -8,8 +8,6 @@
 import SpriteKit
 
 public class GameView:SKView {
-    //To enable mousemove events
-    var trackingArea : NSTrackingArea?
     
     lazy var planetScene: PlanetsScene = {
         return PlanetsScene(fileNamed: "Planets")!
@@ -19,6 +17,10 @@ public class GameView:SKView {
         return CardsScene(fileNamed: "Cards")!
     }()
     
+    #if os(macOS)
+    //To enable mousemove events
+    var trackingArea : NSTrackingArea?
+
     override public func updateTrackingAreas() {
         if trackingArea != nil {
             self.removeTrackingArea(trackingArea!)
@@ -33,6 +35,7 @@ public class GameView:SKView {
     override public func acceptsFirstMouse(for event: NSEvent?) -> Bool {
         return true
     }
+    #endif
     
     func goToPlanetsScene(background: SKNode) {
         background.removeFromParent()
