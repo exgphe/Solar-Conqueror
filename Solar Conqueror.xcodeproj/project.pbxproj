@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016DA949299C32ED00BB0A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA948299C32ED00BB0A81 /* AppDelegate.swift */; };
+		016DA94B299C32ED00BB0A81 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA94A299C32ED00BB0A81 /* GameViewController.swift */; };
+		016DA94E299C32ED00BB0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016DA94C299C32ED00BB0A81 /* Main.storyboard */; };
+		016DA951299C32ED00BB0A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016DA94F299C32ED00BB0A81 /* LaunchScreen.storyboard */; };
+		016DA959299C32ED00BB0A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA958299C32ED00BB0A81 /* AppDelegate.swift */; };
+		016DA95B299C32ED00BB0A81 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA95A299C32ED00BB0A81 /* GameViewController.swift */; };
+		016DA95E299C32ED00BB0A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016DA95C299C32ED00BB0A81 /* Main.storyboard */; };
+		016DA966299C32ED00BB0A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016DA940299C32ED00BB0A81 /* Assets.xcassets */; };
+		016DA967299C32ED00BB0A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016DA940299C32ED00BB0A81 /* Assets.xcassets */; };
+		016DA9D0299C33DF00BB0A81 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA970299C33DE00BB0A81 /* Player.swift */; };
+		016DA9D1299C33DF00BB0A81 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA970299C33DE00BB0A81 /* Player.swift */; };
+		016DA9D2299C33DF00BB0A81 /* SpecialWeaponProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA971299C33DE00BB0A81 /* SpecialWeaponProducer.swift */; };
+		016DA9D3299C33DF00BB0A81 /* SpecialWeaponProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA971299C33DE00BB0A81 /* SpecialWeaponProducer.swift */; };
+		016DA9D4299C33DF00BB0A81 /* PlanetAIRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA972299C33DE00BB0A81 /* PlanetAIRule.swift */; };
+		016DA9D5299C33DF00BB0A81 /* PlanetAIRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA972299C33DE00BB0A81 /* PlanetAIRule.swift */; };
+		016DA9D6299C33DF00BB0A81 /* Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA974299C33DE00BB0A81 /* Venus.png */; };
+		016DA9D7299C33DF00BB0A81 /* Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA974299C33DE00BB0A81 /* Venus.png */; };
+		016DA9D8299C33DF00BB0A81 /* Uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA975299C33DE00BB0A81 /* Uranus.png */; };
+		016DA9D9299C33DF00BB0A81 /* Uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA975299C33DE00BB0A81 /* Uranus.png */; };
+		016DA9DA299C33DF00BB0A81 /* swoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 016DA976299C33DE00BB0A81 /* swoosh.wav */; };
+		016DA9DB299C33DF00BB0A81 /* swoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 016DA976299C33DE00BB0A81 /* swoosh.wav */; };
+		016DA9DC299C33DF00BB0A81 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA977299C33DE00BB0A81 /* tick.png */; };
+		016DA9DD299C33DF00BB0A81 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA977299C33DE00BB0A81 /* tick.png */; };
+		016DA9DE299C33DF00BB0A81 /* boom8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA978299C33DE00BB0A81 /* boom8.mp3 */; };
+		016DA9DF299C33DF00BB0A81 /* boom8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA978299C33DE00BB0A81 /* boom8.mp3 */; };
+		016DA9E0299C33DF00BB0A81 /* firework.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA979299C33DE00BB0A81 /* firework.sks */; };
+		016DA9E1299C33DF00BB0A81 /* firework.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA979299C33DE00BB0A81 /* firework.sks */; };
+		016DA9E2299C33DF00BB0A81 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97A299C33DE00BB0A81 /* Explosion.sks */; };
+		016DA9E3299C33DF00BB0A81 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97A299C33DE00BB0A81 /* Explosion.sks */; };
+		016DA9E4299C33DF00BB0A81 /* Mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97B299C33DE00BB0A81 /* Mars.png */; };
+		016DA9E5299C33DF00BB0A81 /* Mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97B299C33DE00BB0A81 /* Mars.png */; };
+		016DA9E6299C33DF00BB0A81 /* Jupiter.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97C299C33DE00BB0A81 /* Jupiter.png */; };
+		016DA9E7299C33DF00BB0A81 /* Jupiter.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97C299C33DE00BB0A81 /* Jupiter.png */; };
+		016DA9E8299C33DF00BB0A81 /* ForceAvailable.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97D299C33DE00BB0A81 /* ForceAvailable.m4a */; };
+		016DA9E9299C33DF00BB0A81 /* ForceAvailable.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97D299C33DE00BB0A81 /* ForceAvailable.m4a */; };
+		016DA9EA299C33DF00BB0A81 /* half_circle_enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97E299C33DE00BB0A81 /* half_circle_enemy.png */; };
+		016DA9EB299C33DF00BB0A81 /* half_circle_enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97E299C33DE00BB0A81 /* half_circle_enemy.png */; };
+		016DA9EC299C33DF00BB0A81 /* Eris.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97F299C33DE00BB0A81 /* Eris.png */; };
+		016DA9ED299C33DF00BB0A81 /* Eris.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA97F299C33DE00BB0A81 /* Eris.png */; };
+		016DA9EE299C33DF00BB0A81 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA980299C33DE00BB0A81 /* spark.png */; };
+		016DA9EF299C33DF00BB0A81 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA980299C33DE00BB0A81 /* spark.png */; };
+		016DA9F0299C33DF00BB0A81 /* Cards.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA981299C33DE00BB0A81 /* Cards.sks */; };
+		016DA9F1299C33DF00BB0A81 /* Cards.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA981299C33DE00BB0A81 /* Cards.sks */; };
+		016DA9F2299C33DF00BB0A81 /* SpecialWeapon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA982299C33DE00BB0A81 /* SpecialWeapon.m4a */; };
+		016DA9F3299C33DF00BB0A81 /* SpecialWeapon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA982299C33DE00BB0A81 /* SpecialWeapon.m4a */; };
+		016DA9F4299C33DF00BB0A81 /* lightning_segment_enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA983299C33DE00BB0A81 /* lightning_segment_enemy.png */; };
+		016DA9F5299C33DF00BB0A81 /* lightning_segment_enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA983299C33DE00BB0A81 /* lightning_segment_enemy.png */; };
+		016DA9F6299C33DF00BB0A81 /* Path.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA984299C33DE00BB0A81 /* Path.png */; };
+		016DA9F7299C33DF00BB0A81 /* Path.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA984299C33DE00BB0A81 /* Path.png */; };
+		016DA9F8299C33DF00BB0A81 /* half_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA985299C33DE00BB0A81 /* half_circle.png */; };
+		016DA9F9299C33DF00BB0A81 /* half_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA985299C33DE00BB0A81 /* half_circle.png */; };
+		016DA9FA299C33DF00BB0A81 /* Planets.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA986299C33DE00BB0A81 /* Planets.sks */; };
+		016DA9FB299C33DF00BB0A81 /* Planets.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA986299C33DE00BB0A81 /* Planets.sks */; };
+		016DA9FC299C33DF00BB0A81 /* Victory.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA987299C33DE00BB0A81 /* Victory.m4a */; };
+		016DA9FD299C33DF00BB0A81 /* Victory.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA987299C33DE00BB0A81 /* Victory.m4a */; };
+		016DA9FE299C33DF00BB0A81 /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA988299C33DE00BB0A81 /* Earth.png */; };
+		016DA9FF299C33DF00BB0A81 /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA988299C33DE00BB0A81 /* Earth.png */; };
+		016DAA00299C33DF00BB0A81 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA989299C33DE00BB0A81 /* Moon.png */; };
+		016DAA01299C33DF00BB0A81 /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA989299C33DE00BB0A81 /* Moon.png */; };
+		016DAA02299C33DF00BB0A81 /* main1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98A299C33DE00BB0A81 /* main1.mp3 */; };
+		016DAA03299C33DF00BB0A81 /* main1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98A299C33DE00BB0A81 /* main1.mp3 */; };
+		016DAA04299C33DF00BB0A81 /* Success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98B299C33DE00BB0A81 /* Success.m4a */; };
+		016DAA05299C33DF00BB0A81 /* Success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98B299C33DE00BB0A81 /* Success.m4a */; };
+		016DAA06299C33DF00BB0A81 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98C299C33DE00BB0A81 /* ring.png */; };
+		016DAA07299C33DF00BB0A81 /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98C299C33DE00BB0A81 /* ring.png */; };
+		016DAA08299C33DF00BB0A81 /* main2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98D299C33DE00BB0A81 /* main2.mp3 */; };
+		016DAA09299C33DF00BB0A81 /* main2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98D299C33DE00BB0A81 /* main2.mp3 */; };
+		016DAA0A299C33DF00BB0A81 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98E299C33DE00BB0A81 /* rocket.png */; };
+		016DAA0B299C33DF00BB0A81 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98E299C33DE00BB0A81 /* rocket.png */; };
+		016DAA0C299C33DF00BB0A81 /* normal-saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98F299C33DE00BB0A81 /* normal-saturn.png */; };
+		016DAA0D299C33DF00BB0A81 /* normal-saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA98F299C33DE00BB0A81 /* normal-saturn.png */; };
+		016DAA0E299C33DF00BB0A81 /* background.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA990299C33DE00BB0A81 /* background.sks */; };
+		016DAA0F299C33DF00BB0A81 /* background.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA990299C33DE00BB0A81 /* background.sks */; };
+		016DAA10299C33DF00BB0A81 /* Makemake.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA991299C33DE00BB0A81 /* Makemake.png */; };
+		016DAA11299C33DF00BB0A81 /* Makemake.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA991299C33DE00BB0A81 /* Makemake.png */; };
+		016DAA12299C33DF00BB0A81 /* Neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA992299C33DE00BB0A81 /* Neptune.png */; };
+		016DAA13299C33DF00BB0A81 /* Neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA992299C33DE00BB0A81 /* Neptune.png */; };
+		016DAA14299C33DF00BB0A81 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA993299C33DE00BB0A81 /* normal.png */; };
+		016DAA15299C33DF00BB0A81 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA993299C33DE00BB0A81 /* normal.png */; };
+		016DAA16299C33DF00BB0A81 /* Pluto.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA994299C33DE00BB0A81 /* Pluto.png */; };
+		016DAA17299C33DF00BB0A81 /* Pluto.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA994299C33DE00BB0A81 /* Pluto.png */; };
+		016DAA18299C33DF00BB0A81 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA995299C33DE00BB0A81 /* Snow.sks */; };
+		016DAA19299C33DF00BB0A81 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA995299C33DE00BB0A81 /* Snow.sks */; };
+		016DAA1A299C33DF00BB0A81 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA996299C33DE00BB0A81 /* frame.png */; };
+		016DAA1B299C33DF00BB0A81 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA996299C33DE00BB0A81 /* frame.png */; };
+		016DAA1C299C33DF00BB0A81 /* boom3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA997299C33DE00BB0A81 /* boom3.mp3 */; };
+		016DAA1D299C33DF00BB0A81 /* boom3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA997299C33DE00BB0A81 /* boom3.mp3 */; };
+		016DAA1E299C33DF00BB0A81 /* boom2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA998299C33DE00BB0A81 /* boom2.mp3 */; };
+		016DAA1F299C33DF00BB0A81 /* boom2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA998299C33DE00BB0A81 /* boom2.mp3 */; };
+		016DAA20299C33DF00BB0A81 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA999299C33DE00BB0A81 /* Sun.png */; };
+		016DAA21299C33DF00BB0A81 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA999299C33DE00BB0A81 /* Sun.png */; };
+		016DAA22299C33DF00BB0A81 /* boom0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99A299C33DE00BB0A81 /* boom0.mp3 */; };
+		016DAA23299C33DF00BB0A81 /* boom0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99A299C33DE00BB0A81 /* boom0.mp3 */; };
+		016DAA24299C33DF00BB0A81 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99B299C33DE00BB0A81 /* glass.png */; };
+		016DAA25299C33DF00BB0A81 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99B299C33DE00BB0A81 /* glass.png */; };
+		016DAA26299C33DF00BB0A81 /* Mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99C299C33DE00BB0A81 /* Mercury.png */; };
+		016DAA27299C33DF00BB0A81 /* Mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99C299C33DE00BB0A81 /* Mercury.png */; };
+		016DAA28299C33DF00BB0A81 /* Ceres.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99D299C33DE00BB0A81 /* Ceres.png */; };
+		016DAA29299C33DF00BB0A81 /* Ceres.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99D299C33DE00BB0A81 /* Ceres.png */; };
+		016DAA2A299C33DF00BB0A81 /* boom1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99E299C33DE00BB0A81 /* boom1.mp3 */; };
+		016DAA2B299C33DF00BB0A81 /* boom1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99E299C33DE00BB0A81 /* boom1.mp3 */; };
+		016DAA2C299C33DF00BB0A81 /* Defeated.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99F299C33DE00BB0A81 /* Defeated.m4a */; };
+		016DAA2D299C33DF00BB0A81 /* Defeated.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA99F299C33DE00BB0A81 /* Defeated.m4a */; };
+		016DAA2E299C33DF00BB0A81 /* sunshine.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A0299C33DE00BB0A81 /* sunshine.png */; };
+		016DAA2F299C33DF00BB0A81 /* sunshine.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A0299C33DE00BB0A81 /* sunshine.png */; };
+		016DAA30299C33DF00BB0A81 /* boom5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A1299C33DE00BB0A81 /* boom5.mp3 */; };
+		016DAA31299C33DF00BB0A81 /* boom5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A1299C33DE00BB0A81 /* boom5.mp3 */; };
+		016DAA32299C33DF00BB0A81 /* Saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A2299C33DE00BB0A81 /* Saturn.png */; };
+		016DAA33299C33DF00BB0A81 /* Saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A2299C33DE00BB0A81 /* Saturn.png */; };
+		016DAA34299C33DF00BB0A81 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A3299C33DE00BB0A81 /* play.png */; };
+		016DAA35299C33DF00BB0A81 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A3299C33DE00BB0A81 /* play.png */; };
+		016DAA36299C33DF00BB0A81 /* boom4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A4299C33DE00BB0A81 /* boom4.mp3 */; };
+		016DAA37299C33DF00BB0A81 /* boom4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A4299C33DE00BB0A81 /* boom4.mp3 */; };
+		016DAA38299C33DF00BB0A81 /* lightning_segment.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A5299C33DE00BB0A81 /* lightning_segment.png */; };
+		016DAA39299C33DF00BB0A81 /* lightning_segment.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A5299C33DE00BB0A81 /* lightning_segment.png */; };
+		016DAA3A299C33DF00BB0A81 /* rocketFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A6299C33DE00BB0A81 /* rocketFire.sks */; };
+		016DAA3B299C33DF00BB0A81 /* rocketFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A6299C33DE00BB0A81 /* rocketFire.sks */; };
+		016DAA3C299C33DF00BB0A81 /* boom6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A7299C33DE00BB0A81 /* boom6.mp3 */; };
+		016DAA3D299C33DF00BB0A81 /* boom6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A7299C33DE00BB0A81 /* boom6.mp3 */; };
+		016DAA3E299C33DF00BB0A81 /* boom7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A8299C33DE00BB0A81 /* boom7.mp3 */; };
+		016DAA3F299C33DF00BB0A81 /* boom7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A8299C33DE00BB0A81 /* boom7.mp3 */; };
+		016DAA40299C33DF00BB0A81 /* Begin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A9299C33DE00BB0A81 /* Begin.m4a */; };
+		016DAA41299C33DF00BB0A81 /* Begin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9A9299C33DE00BB0A81 /* Begin.m4a */; };
+		016DAA42299C33DF00BB0A81 /* Haumea.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9AA299C33DE00BB0A81 /* Haumea.png */; };
+		016DAA43299C33DF00BB0A81 /* Haumea.png in Resources */ = {isa = PBXBuildFile; fileRef = 016DA9AA299C33DE00BB0A81 /* Haumea.png */; };
+		016DAA44299C33DF00BB0A81 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AB299C33DF00BB0A81 /* Enemy.swift */; };
+		016DAA45299C33DF00BB0A81 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AB299C33DF00BB0A81 /* Enemy.swift */; };
+		016DAA46299C33DF00BB0A81 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AC299C33DF00BB0A81 /* Role.swift */; };
+		016DAA47299C33DF00BB0A81 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AC299C33DF00BB0A81 /* Role.swift */; };
+		016DAA48299C33DF00BB0A81 /* PlanetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AD299C33DF00BB0A81 /* PlanetNode.swift */; };
+		016DAA49299C33DF00BB0A81 /* PlanetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AD299C33DF00BB0A81 /* PlanetNode.swift */; };
+		016DAA4A299C33DF00BB0A81 /* PopulationIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AE299C33DF00BB0A81 /* PopulationIndicator.swift */; };
+		016DAA4B299C33DF00BB0A81 /* PopulationIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AE299C33DF00BB0A81 /* PopulationIndicator.swift */; };
+		016DAA4C299C33DF00BB0A81 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AF299C33DF00BB0A81 /* GameView.swift */; };
+		016DAA4D299C33DF00BB0A81 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9AF299C33DF00BB0A81 /* GameView.swift */; };
+		016DAA4E299C33DF00BB0A81 /* InteractableScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B0299C33DF00BB0A81 /* InteractableScene.swift */; };
+		016DAA4F299C33DF00BB0A81 /* InteractableScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B0299C33DF00BB0A81 /* InteractableScene.swift */; };
+		016DAA50299C33DF00BB0A81 /* CardsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B1299C33DF00BB0A81 /* CardsScene.swift */; };
+		016DAA51299C33DF00BB0A81 /* CardsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B1299C33DF00BB0A81 /* CardsScene.swift */; };
+		016DAA52299C33DF00BB0A81 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B2299C33DF00BB0A81 /* Rules.swift */; };
+		016DAA53299C33DF00BB0A81 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B2299C33DF00BB0A81 /* Rules.swift */; };
+		016DAA54299C33DF00BB0A81 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B3299C33DF00BB0A81 /* Constants.swift */; };
+		016DAA55299C33DF00BB0A81 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B3299C33DF00BB0A81 /* Constants.swift */; };
+		016DAA56299C33DF00BB0A81 /* ReadyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B5299C33DF00BB0A81 /* ReadyCard.swift */; };
+		016DAA57299C33DF00BB0A81 /* ReadyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B5299C33DF00BB0A81 /* ReadyCard.swift */; };
+		016DAA58299C33DF00BB0A81 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B6299C33DF00BB0A81 /* Card.swift */; };
+		016DAA59299C33DF00BB0A81 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B6299C33DF00BB0A81 /* Card.swift */; };
+		016DAA5A299C33DF00BB0A81 /* StartCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B7299C33DF00BB0A81 /* StartCard.swift */; };
+		016DAA5B299C33DF00BB0A81 /* StartCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B7299C33DF00BB0A81 /* StartCard.swift */; };
+		016DAA5C299C33DF00BB0A81 /* DragToSelectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B8299C33DF00BB0A81 /* DragToSelectCard.swift */; };
+		016DAA5D299C33DF00BB0A81 /* DragToSelectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B8299C33DF00BB0A81 /* DragToSelectCard.swift */; };
+		016DAA5E299C33DF00BB0A81 /* ForceTouchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B9299C33DF00BB0A81 /* ForceTouchCard.swift */; };
+		016DAA5F299C33DF00BB0A81 /* ForceTouchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9B9299C33DF00BB0A81 /* ForceTouchCard.swift */; };
+		016DAA60299C33DF00BB0A81 /* ClickToSelectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BA299C33DF00BB0A81 /* ClickToSelectCard.swift */; };
+		016DAA61299C33DF00BB0A81 /* ClickToSelectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BA299C33DF00BB0A81 /* ClickToSelectCard.swift */; };
+		016DAA62299C33DF00BB0A81 /* FinalResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BB299C33DF00BB0A81 /* FinalResultCard.swift */; };
+		016DAA63299C33DF00BB0A81 /* FinalResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BB299C33DF00BB0A81 /* FinalResultCard.swift */; };
+		016DAA64299C33DF00BB0A81 /* 🚀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BC299C33DF00BB0A81 /* 🚀.swift */; };
+		016DAA65299C33DF00BB0A81 /* 🚀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BC299C33DF00BB0A81 /* 🚀.swift */; };
+		016DAA66299C33DF00BB0A81 /* NormalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BE299C33DF00BB0A81 /* NormalState.swift */; };
+		016DAA67299C33DF00BB0A81 /* NormalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BE299C33DF00BB0A81 /* NormalState.swift */; };
+		016DAA68299C33DF00BB0A81 /* FailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BF299C33DF00BB0A81 /* FailState.swift */; };
+		016DAA69299C33DF00BB0A81 /* FailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9BF299C33DF00BB0A81 /* FailState.swift */; };
+		016DAA6A299C33DF00BB0A81 /* StartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C0299C33DF00BB0A81 /* StartState.swift */; };
+		016DAA6B299C33DF00BB0A81 /* StartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C0299C33DF00BB0A81 /* StartState.swift */; };
+		016DAA6C299C33DF00BB0A81 /* PlanetSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C1299C33DF00BB0A81 /* PlanetSceneState.swift */; };
+		016DAA6D299C33DF00BB0A81 /* PlanetSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C1299C33DF00BB0A81 /* PlanetSceneState.swift */; };
+		016DAA6E299C33DF00BB0A81 /* VictoryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C2299C33DF00BB0A81 /* VictoryState.swift */; };
+		016DAA6F299C33DF00BB0A81 /* VictoryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C2299C33DF00BB0A81 /* VictoryState.swift */; };
+		016DAA70299C33DF00BB0A81 /* Gaia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C3299C33DF00BB0A81 /* Gaia.swift */; };
+		016DAA71299C33DF00BB0A81 /* Gaia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C3299C33DF00BB0A81 /* Gaia.swift */; };
+		016DAA72299C33DF00BB0A81 /* PlanetsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */; };
+		016DAA73299C33DF00BB0A81 /* PlanetsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */; };
+		016DAA74299C33DF00BB0A81 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C6299C33DF00BB0A81 /* Statistics.swift */; };
+		016DAA75299C33DF00BB0A81 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C6299C33DF00BB0A81 /* Statistics.swift */; };
+		016DAA76299C33DF00BB0A81 /* Intelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C7299C33DF00BB0A81 /* Intelligence.swift */; };
+		016DAA77299C33DF00BB0A81 /* Intelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C7299C33DF00BB0A81 /* Intelligence.swift */; };
+		016DAA78299C33DF00BB0A81 /* MoveShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C8299C33DF00BB0A81 /* MoveShips.swift */; };
+		016DAA79299C33DF00BB0A81 /* MoveShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C8299C33DF00BB0A81 /* MoveShips.swift */; };
+		016DAA7A299C33DF00BB0A81 /* Spawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C9299C33DF00BB0A81 /* Spawner.swift */; };
+		016DAA7B299C33DF00BB0A81 /* Spawner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C9299C33DF00BB0A81 /* Spawner.swift */; };
+		016DAA7C299C33DF00BB0A81 /* PlanetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CA299C33DF00BB0A81 /* PlanetEntity.swift */; };
+		016DAA7D299C33DF00BB0A81 /* PlanetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CA299C33DF00BB0A81 /* PlanetEntity.swift */; };
+		016DAA7E299C33DF00BB0A81 /* PlanetsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CB299C33DF00BB0A81 /* PlanetsScene.swift */; };
+		016DAA7F299C33DF00BB0A81 /* PlanetsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CB299C33DF00BB0A81 /* PlanetsScene.swift */; };
+		016DAA80299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CD299C33DF00BB0A81 /* LightningBoltNode.swift */; };
+		016DAA81299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CD299C33DF00BB0A81 /* LightningBoltNode.swift */; };
+		016DAA82299C33DF00BB0A81 /* LightningLineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CE299C33DF00BB0A81 /* LightningLineNode.swift */; };
+		016DAA83299C33DF00BB0A81 /* LightningLineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CE299C33DF00BB0A81 /* LightningLineNode.swift */; };
+		016DAA84299C33DF00BB0A81 /* LightningNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CF299C33DF00BB0A81 /* LightningNode.swift */; };
+		016DAA85299C33DF00BB0A81 /* LightningNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CF299C33DF00BB0A81 /* LightningNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016DA940299C32ED00BB0A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016DA945299C32ED00BB0A81 /* Solar Conqueror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Conqueror.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		016DA948299C32ED00BB0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		016DA94A299C32ED00BB0A81 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		016DA94D299C32ED00BB0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		016DA950299C32ED00BB0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		016DA956299C32ED00BB0A81 /* Solar Conqueror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Conqueror.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		016DA958299C32ED00BB0A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		016DA95A299C32ED00BB0A81 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		016DA95D299C32ED00BB0A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		016DA95F299C32ED00BB0A81 /* Solar_Conqueror_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Solar_Conqueror_macOS.entitlements; sourceTree = "<group>"; };
+		016DA970299C33DE00BB0A81 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		016DA971299C33DE00BB0A81 /* SpecialWeaponProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialWeaponProducer.swift; sourceTree = "<group>"; };
+		016DA972299C33DE00BB0A81 /* PlanetAIRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetAIRule.swift; sourceTree = "<group>"; };
+		016DA974299C33DE00BB0A81 /* Venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Venus.png; sourceTree = "<group>"; };
+		016DA975299C33DE00BB0A81 /* Uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uranus.png; sourceTree = "<group>"; };
+		016DA976299C33DE00BB0A81 /* swoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swoosh.wav; sourceTree = "<group>"; };
+		016DA977299C33DE00BB0A81 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		016DA978299C33DE00BB0A81 /* boom8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom8.mp3; sourceTree = "<group>"; };
+		016DA979299C33DE00BB0A81 /* firework.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = firework.sks; sourceTree = "<group>"; };
+		016DA97A299C33DE00BB0A81 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		016DA97B299C33DE00BB0A81 /* Mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mars.png; sourceTree = "<group>"; };
+		016DA97C299C33DE00BB0A81 /* Jupiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jupiter.png; sourceTree = "<group>"; };
+		016DA97D299C33DE00BB0A81 /* ForceAvailable.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ForceAvailable.m4a; sourceTree = "<group>"; };
+		016DA97E299C33DE00BB0A81 /* half_circle_enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = half_circle_enemy.png; sourceTree = "<group>"; };
+		016DA97F299C33DE00BB0A81 /* Eris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eris.png; sourceTree = "<group>"; };
+		016DA980299C33DE00BB0A81 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		016DA981299C33DE00BB0A81 /* Cards.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cards.sks; sourceTree = "<group>"; };
+		016DA982299C33DE00BB0A81 /* SpecialWeapon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpecialWeapon.m4a; sourceTree = "<group>"; };
+		016DA983299C33DE00BB0A81 /* lightning_segment_enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightning_segment_enemy.png; sourceTree = "<group>"; };
+		016DA984299C33DE00BB0A81 /* Path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Path.png; sourceTree = "<group>"; };
+		016DA985299C33DE00BB0A81 /* half_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = half_circle.png; sourceTree = "<group>"; };
+		016DA986299C33DE00BB0A81 /* Planets.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Planets.sks; sourceTree = "<group>"; };
+		016DA987299C33DE00BB0A81 /* Victory.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Victory.m4a; sourceTree = "<group>"; };
+		016DA988299C33DE00BB0A81 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
+		016DA989299C33DE00BB0A81 /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		016DA98A299C33DE00BB0A81 /* main1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = main1.mp3; sourceTree = "<group>"; };
+		016DA98B299C33DE00BB0A81 /* Success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Success.m4a; sourceTree = "<group>"; };
+		016DA98C299C33DE00BB0A81 /* ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ring.png; sourceTree = "<group>"; };
+		016DA98D299C33DE00BB0A81 /* main2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = main2.mp3; sourceTree = "<group>"; };
+		016DA98E299C33DE00BB0A81 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		016DA98F299C33DE00BB0A81 /* normal-saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal-saturn.png"; sourceTree = "<group>"; };
+		016DA990299C33DE00BB0A81 /* background.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = background.sks; sourceTree = "<group>"; };
+		016DA991299C33DE00BB0A81 /* Makemake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Makemake.png; sourceTree = "<group>"; };
+		016DA992299C33DE00BB0A81 /* Neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Neptune.png; sourceTree = "<group>"; };
+		016DA993299C33DE00BB0A81 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		016DA994299C33DE00BB0A81 /* Pluto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pluto.png; sourceTree = "<group>"; };
+		016DA995299C33DE00BB0A81 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		016DA996299C33DE00BB0A81 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		016DA997299C33DE00BB0A81 /* boom3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom3.mp3; sourceTree = "<group>"; };
+		016DA998299C33DE00BB0A81 /* boom2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom2.mp3; sourceTree = "<group>"; };
+		016DA999299C33DE00BB0A81 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		016DA99A299C33DE00BB0A81 /* boom0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom0.mp3; sourceTree = "<group>"; };
+		016DA99B299C33DE00BB0A81 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		016DA99C299C33DE00BB0A81 /* Mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mercury.png; sourceTree = "<group>"; };
+		016DA99D299C33DE00BB0A81 /* Ceres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ceres.png; sourceTree = "<group>"; };
+		016DA99E299C33DE00BB0A81 /* boom1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom1.mp3; sourceTree = "<group>"; };
+		016DA99F299C33DE00BB0A81 /* Defeated.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Defeated.m4a; sourceTree = "<group>"; };
+		016DA9A0299C33DE00BB0A81 /* sunshine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunshine.png; sourceTree = "<group>"; };
+		016DA9A1299C33DE00BB0A81 /* boom5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom5.mp3; sourceTree = "<group>"; };
+		016DA9A2299C33DE00BB0A81 /* Saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saturn.png; sourceTree = "<group>"; };
+		016DA9A3299C33DE00BB0A81 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		016DA9A4299C33DE00BB0A81 /* boom4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom4.mp3; sourceTree = "<group>"; };
+		016DA9A5299C33DE00BB0A81 /* lightning_segment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightning_segment.png; sourceTree = "<group>"; };
+		016DA9A6299C33DE00BB0A81 /* rocketFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rocketFire.sks; sourceTree = "<group>"; };
+		016DA9A7299C33DE00BB0A81 /* boom6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom6.mp3; sourceTree = "<group>"; };
+		016DA9A8299C33DE00BB0A81 /* boom7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boom7.mp3; sourceTree = "<group>"; };
+		016DA9A9299C33DE00BB0A81 /* Begin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Begin.m4a; sourceTree = "<group>"; };
+		016DA9AA299C33DE00BB0A81 /* Haumea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Haumea.png; sourceTree = "<group>"; };
+		016DA9AB299C33DF00BB0A81 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		016DA9AC299C33DF00BB0A81 /* Role.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		016DA9AD299C33DF00BB0A81 /* PlanetNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetNode.swift; sourceTree = "<group>"; };
+		016DA9AE299C33DF00BB0A81 /* PopulationIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationIndicator.swift; sourceTree = "<group>"; };
+		016DA9AF299C33DF00BB0A81 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		016DA9B0299C33DF00BB0A81 /* InteractableScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractableScene.swift; sourceTree = "<group>"; };
+		016DA9B1299C33DF00BB0A81 /* CardsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsScene.swift; sourceTree = "<group>"; };
+		016DA9B2299C33DF00BB0A81 /* Rules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		016DA9B3299C33DF00BB0A81 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		016DA9B5299C33DF00BB0A81 /* ReadyCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyCard.swift; sourceTree = "<group>"; };
+		016DA9B6299C33DF00BB0A81 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		016DA9B7299C33DF00BB0A81 /* StartCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartCard.swift; sourceTree = "<group>"; };
+		016DA9B8299C33DF00BB0A81 /* DragToSelectCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragToSelectCard.swift; sourceTree = "<group>"; };
+		016DA9B9299C33DF00BB0A81 /* ForceTouchCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceTouchCard.swift; sourceTree = "<group>"; };
+		016DA9BA299C33DF00BB0A81 /* ClickToSelectCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickToSelectCard.swift; sourceTree = "<group>"; };
+		016DA9BB299C33DF00BB0A81 /* FinalResultCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalResultCard.swift; sourceTree = "<group>"; };
+		016DA9BC299C33DF00BB0A81 /* 🚀.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "🚀.swift"; sourceTree = "<group>"; };
+		016DA9BE299C33DF00BB0A81 /* NormalState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalState.swift; sourceTree = "<group>"; };
+		016DA9BF299C33DF00BB0A81 /* FailState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailState.swift; sourceTree = "<group>"; };
+		016DA9C0299C33DF00BB0A81 /* StartState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartState.swift; sourceTree = "<group>"; };
+		016DA9C1299C33DF00BB0A81 /* PlanetSceneState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetSceneState.swift; sourceTree = "<group>"; };
+		016DA9C2299C33DF00BB0A81 /* VictoryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoryState.swift; sourceTree = "<group>"; };
+		016DA9C3299C33DF00BB0A81 /* Gaia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gaia.swift; sourceTree = "<group>"; };
+		016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsCard.swift; sourceTree = "<group>"; };
+		016DA9C6299C33DF00BB0A81 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		016DA9C7299C33DF00BB0A81 /* Intelligence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intelligence.swift; sourceTree = "<group>"; };
+		016DA9C8299C33DF00BB0A81 /* MoveShips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveShips.swift; sourceTree = "<group>"; };
+		016DA9C9299C33DF00BB0A81 /* Spawner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spawner.swift; sourceTree = "<group>"; };
+		016DA9CA299C33DF00BB0A81 /* PlanetEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetEntity.swift; sourceTree = "<group>"; };
+		016DA9CB299C33DF00BB0A81 /* PlanetsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsScene.swift; sourceTree = "<group>"; };
+		016DA9CD299C33DF00BB0A81 /* LightningBoltNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightningBoltNode.swift; sourceTree = "<group>"; };
+		016DA9CE299C33DF00BB0A81 /* LightningLineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightningLineNode.swift; sourceTree = "<group>"; };
+		016DA9CF299C33DF00BB0A81 /* LightningNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightningNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016DA942299C32ED00BB0A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016DA953299C32ED00BB0A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016DA937299C32ED00BB0A81 = {
+			isa = PBXGroup;
+			children = (
+				016DA93C299C32ED00BB0A81 /* Solar Conqueror Shared */,
+				016DA947299C32ED00BB0A81 /* Solar Conqueror iOS */,
+				016DA957299C32ED00BB0A81 /* Solar Conqueror macOS */,
+				016DA946299C32ED00BB0A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016DA93C299C32ED00BB0A81 /* Solar Conqueror Shared */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9CC299C33DF00BB0A81 /* ⚡️ */,
+				016DA9BC299C33DF00BB0A81 /* 🚀.swift */,
+				016DA9B4299C33DF00BB0A81 /* Cards */,
+				016DA9B1299C33DF00BB0A81 /* CardsScene.swift */,
+				016DA9C5299C33DF00BB0A81 /* Components */,
+				016DA9B3299C33DF00BB0A81 /* Constants.swift */,
+				016DA9AB299C33DF00BB0A81 /* Enemy.swift */,
+				016DA9C3299C33DF00BB0A81 /* Gaia.swift */,
+				016DA9AF299C33DF00BB0A81 /* GameView.swift */,
+				016DA9B0299C33DF00BB0A81 /* InteractableScene.swift */,
+				016DA972299C33DE00BB0A81 /* PlanetAIRule.swift */,
+				016DA9CA299C33DF00BB0A81 /* PlanetEntity.swift */,
+				016DA9AD299C33DF00BB0A81 /* PlanetNode.swift */,
+				016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */,
+				016DA9CB299C33DF00BB0A81 /* PlanetsScene.swift */,
+				016DA970299C33DE00BB0A81 /* Player.swift */,
+				016DA9AE299C33DF00BB0A81 /* PopulationIndicator.swift */,
+				016DA973299C33DE00BB0A81 /* Resources */,
+				016DA9AC299C33DF00BB0A81 /* Role.swift */,
+				016DA9B2299C33DF00BB0A81 /* Rules.swift */,
+				016DA971299C33DE00BB0A81 /* SpecialWeaponProducer.swift */,
+				016DA9BD299C33DF00BB0A81 /* States */,
+				016DA940299C32ED00BB0A81 /* Assets.xcassets */,
+			);
+			path = "Solar Conqueror Shared";
+			sourceTree = "<group>";
+		};
+		016DA946299C32ED00BB0A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016DA945299C32ED00BB0A81 /* Solar Conqueror.app */,
+				016DA956299C32ED00BB0A81 /* Solar Conqueror.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016DA947299C32ED00BB0A81 /* Solar Conqueror iOS */ = {
+			isa = PBXGroup;
+			children = (
+				016DA948299C32ED00BB0A81 /* AppDelegate.swift */,
+				016DA94A299C32ED00BB0A81 /* GameViewController.swift */,
+				016DA94C299C32ED00BB0A81 /* Main.storyboard */,
+				016DA94F299C32ED00BB0A81 /* LaunchScreen.storyboard */,
+			);
+			path = "Solar Conqueror iOS";
+			sourceTree = "<group>";
+		};
+		016DA957299C32ED00BB0A81 /* Solar Conqueror macOS */ = {
+			isa = PBXGroup;
+			children = (
+				016DA958299C32ED00BB0A81 /* AppDelegate.swift */,
+				016DA95A299C32ED00BB0A81 /* GameViewController.swift */,
+				016DA95C299C32ED00BB0A81 /* Main.storyboard */,
+				016DA95F299C32ED00BB0A81 /* Solar_Conqueror_macOS.entitlements */,
+			);
+			path = "Solar Conqueror macOS";
+			sourceTree = "<group>";
+		};
+		016DA973299C33DE00BB0A81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				016DA974299C33DE00BB0A81 /* Venus.png */,
+				016DA975299C33DE00BB0A81 /* Uranus.png */,
+				016DA976299C33DE00BB0A81 /* swoosh.wav */,
+				016DA977299C33DE00BB0A81 /* tick.png */,
+				016DA978299C33DE00BB0A81 /* boom8.mp3 */,
+				016DA979299C33DE00BB0A81 /* firework.sks */,
+				016DA97A299C33DE00BB0A81 /* Explosion.sks */,
+				016DA97B299C33DE00BB0A81 /* Mars.png */,
+				016DA97C299C33DE00BB0A81 /* Jupiter.png */,
+				016DA97D299C33DE00BB0A81 /* ForceAvailable.m4a */,
+				016DA97E299C33DE00BB0A81 /* half_circle_enemy.png */,
+				016DA97F299C33DE00BB0A81 /* Eris.png */,
+				016DA980299C33DE00BB0A81 /* spark.png */,
+				016DA981299C33DE00BB0A81 /* Cards.sks */,
+				016DA982299C33DE00BB0A81 /* SpecialWeapon.m4a */,
+				016DA983299C33DE00BB0A81 /* lightning_segment_enemy.png */,
+				016DA984299C33DE00BB0A81 /* Path.png */,
+				016DA985299C33DE00BB0A81 /* half_circle.png */,
+				016DA986299C33DE00BB0A81 /* Planets.sks */,
+				016DA987299C33DE00BB0A81 /* Victory.m4a */,
+				016DA988299C33DE00BB0A81 /* Earth.png */,
+				016DA989299C33DE00BB0A81 /* Moon.png */,
+				016DA98A299C33DE00BB0A81 /* main1.mp3 */,
+				016DA98B299C33DE00BB0A81 /* Success.m4a */,
+				016DA98C299C33DE00BB0A81 /* ring.png */,
+				016DA98D299C33DE00BB0A81 /* main2.mp3 */,
+				016DA98E299C33DE00BB0A81 /* rocket.png */,
+				016DA98F299C33DE00BB0A81 /* normal-saturn.png */,
+				016DA990299C33DE00BB0A81 /* background.sks */,
+				016DA991299C33DE00BB0A81 /* Makemake.png */,
+				016DA992299C33DE00BB0A81 /* Neptune.png */,
+				016DA993299C33DE00BB0A81 /* normal.png */,
+				016DA994299C33DE00BB0A81 /* Pluto.png */,
+				016DA995299C33DE00BB0A81 /* Snow.sks */,
+				016DA996299C33DE00BB0A81 /* frame.png */,
+				016DA997299C33DE00BB0A81 /* boom3.mp3 */,
+				016DA998299C33DE00BB0A81 /* boom2.mp3 */,
+				016DA999299C33DE00BB0A81 /* Sun.png */,
+				016DA99A299C33DE00BB0A81 /* boom0.mp3 */,
+				016DA99B299C33DE00BB0A81 /* glass.png */,
+				016DA99C299C33DE00BB0A81 /* Mercury.png */,
+				016DA99D299C33DE00BB0A81 /* Ceres.png */,
+				016DA99E299C33DE00BB0A81 /* boom1.mp3 */,
+				016DA99F299C33DE00BB0A81 /* Defeated.m4a */,
+				016DA9A0299C33DE00BB0A81 /* sunshine.png */,
+				016DA9A1299C33DE00BB0A81 /* boom5.mp3 */,
+				016DA9A2299C33DE00BB0A81 /* Saturn.png */,
+				016DA9A3299C33DE00BB0A81 /* play.png */,
+				016DA9A4299C33DE00BB0A81 /* boom4.mp3 */,
+				016DA9A5299C33DE00BB0A81 /* lightning_segment.png */,
+				016DA9A6299C33DE00BB0A81 /* rocketFire.sks */,
+				016DA9A7299C33DE00BB0A81 /* boom6.mp3 */,
+				016DA9A8299C33DE00BB0A81 /* boom7.mp3 */,
+				016DA9A9299C33DE00BB0A81 /* Begin.m4a */,
+				016DA9AA299C33DE00BB0A81 /* Haumea.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		016DA9B4299C33DF00BB0A81 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9B5299C33DF00BB0A81 /* ReadyCard.swift */,
+				016DA9B6299C33DF00BB0A81 /* Card.swift */,
+				016DA9B7299C33DF00BB0A81 /* StartCard.swift */,
+				016DA9B8299C33DF00BB0A81 /* DragToSelectCard.swift */,
+				016DA9B9299C33DF00BB0A81 /* ForceTouchCard.swift */,
+				016DA9BA299C33DF00BB0A81 /* ClickToSelectCard.swift */,
+				016DA9BB299C33DF00BB0A81 /* FinalResultCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		016DA9BD299C33DF00BB0A81 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9BE299C33DF00BB0A81 /* NormalState.swift */,
+				016DA9BF299C33DF00BB0A81 /* FailState.swift */,
+				016DA9C0299C33DF00BB0A81 /* StartState.swift */,
+				016DA9C1299C33DF00BB0A81 /* PlanetSceneState.swift */,
+				016DA9C2299C33DF00BB0A81 /* VictoryState.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		016DA9C5299C33DF00BB0A81 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9C6299C33DF00BB0A81 /* Statistics.swift */,
+				016DA9C7299C33DF00BB0A81 /* Intelligence.swift */,
+				016DA9C8299C33DF00BB0A81 /* MoveShips.swift */,
+				016DA9C9299C33DF00BB0A81 /* Spawner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		016DA9CC299C33DF00BB0A81 /* ⚡️ */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9CD299C33DF00BB0A81 /* LightningBoltNode.swift */,
+				016DA9CE299C33DF00BB0A81 /* LightningLineNode.swift */,
+				016DA9CF299C33DF00BB0A81 /* LightningNode.swift */,
+			);
+			path = "⚡️";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016DA944299C32ED00BB0A81 /* Solar Conqueror iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016DA96A299C32ED00BB0A81 /* Build configuration list for PBXNativeTarget "Solar Conqueror iOS" */;
+			buildPhases = (
+				016DA941299C32ED00BB0A81 /* Sources */,
+				016DA942299C32ED00BB0A81 /* Frameworks */,
+				016DA943299C32ED00BB0A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar Conqueror iOS";
+			productName = "Solar Conqueror iOS";
+			productReference = 016DA945299C32ED00BB0A81 /* Solar Conqueror.app */;
+			productType = "com.apple.product-type.application";
+		};
+		016DA955299C32ED00BB0A81 /* Solar Conqueror macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016DA96D299C32ED00BB0A81 /* Build configuration list for PBXNativeTarget "Solar Conqueror macOS" */;
+			buildPhases = (
+				016DA952299C32ED00BB0A81 /* Sources */,
+				016DA953299C32ED00BB0A81 /* Frameworks */,
+				016DA954299C32ED00BB0A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar Conqueror macOS";
+			productName = "Solar Conqueror macOS";
+			productReference = 016DA956299C32ED00BB0A81 /* Solar Conqueror.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016DA938299C32ED00BB0A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					016DA944299C32ED00BB0A81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					016DA955299C32ED00BB0A81 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 016DA93B299C32ED00BB0A81 /* Build configuration list for PBXProject "Solar Conqueror" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016DA937299C32ED00BB0A81;
+			productRefGroup = 016DA946299C32ED00BB0A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016DA944299C32ED00BB0A81 /* Solar Conqueror iOS */,
+				016DA955299C32ED00BB0A81 /* Solar Conqueror macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016DA943299C32ED00BB0A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DAA2E299C33DF00BB0A81 /* sunshine.png in Resources */,
+				016DAA20299C33DF00BB0A81 /* Sun.png in Resources */,
+				016DAA00299C33DF00BB0A81 /* Moon.png in Resources */,
+				016DAA1E299C33DF00BB0A81 /* boom2.mp3 in Resources */,
+				016DAA22299C33DF00BB0A81 /* boom0.mp3 in Resources */,
+				016DAA2A299C33DF00BB0A81 /* boom1.mp3 in Resources */,
+				016DAA16299C33DF00BB0A81 /* Pluto.png in Resources */,
+				016DA9FA299C33DF00BB0A81 /* Planets.sks in Resources */,
+				016DA9F8299C33DF00BB0A81 /* half_circle.png in Resources */,
+				016DA9EE299C33DF00BB0A81 /* spark.png in Resources */,
+				016DAA30299C33DF00BB0A81 /* boom5.mp3 in Resources */,
+				016DAA0A299C33DF00BB0A81 /* rocket.png in Resources */,
+				016DA9EC299C33DF00BB0A81 /* Eris.png in Resources */,
+				016DA9FC299C33DF00BB0A81 /* Victory.m4a in Resources */,
+				016DAA24299C33DF00BB0A81 /* glass.png in Resources */,
+				016DAA26299C33DF00BB0A81 /* Mercury.png in Resources */,
+				016DAA10299C33DF00BB0A81 /* Makemake.png in Resources */,
+				016DA9EA299C33DF00BB0A81 /* half_circle_enemy.png in Resources */,
+				016DAA3E299C33DF00BB0A81 /* boom7.mp3 in Resources */,
+				016DA9F6299C33DF00BB0A81 /* Path.png in Resources */,
+				016DAA40299C33DF00BB0A81 /* Begin.m4a in Resources */,
+				016DAA2C299C33DF00BB0A81 /* Defeated.m4a in Resources */,
+				016DA9F2299C33DF00BB0A81 /* SpecialWeapon.m4a in Resources */,
+				016DAA32299C33DF00BB0A81 /* Saturn.png in Resources */,
+				016DA9DA299C33DF00BB0A81 /* swoosh.wav in Resources */,
+				016DAA38299C33DF00BB0A81 /* lightning_segment.png in Resources */,
+				016DAA1C299C33DF00BB0A81 /* boom3.mp3 in Resources */,
+				016DAA06299C33DF00BB0A81 /* ring.png in Resources */,
+				016DAA18299C33DF00BB0A81 /* Snow.sks in Resources */,
+				016DAA42299C33DF00BB0A81 /* Haumea.png in Resources */,
+				016DA9FE299C33DF00BB0A81 /* Earth.png in Resources */,
+				016DA9DC299C33DF00BB0A81 /* tick.png in Resources */,
+				016DA9F4299C33DF00BB0A81 /* lightning_segment_enemy.png in Resources */,
+				016DA94E299C32ED00BB0A81 /* Main.storyboard in Resources */,
+				016DAA3C299C33DF00BB0A81 /* boom6.mp3 in Resources */,
+				016DA9E8299C33DF00BB0A81 /* ForceAvailable.m4a in Resources */,
+				016DA9E6299C33DF00BB0A81 /* Jupiter.png in Resources */,
+				016DAA1A299C33DF00BB0A81 /* frame.png in Resources */,
+				016DAA14299C33DF00BB0A81 /* normal.png in Resources */,
+				016DA9E2299C33DF00BB0A81 /* Explosion.sks in Resources */,
+				016DA951299C32ED00BB0A81 /* LaunchScreen.storyboard in Resources */,
+				016DAA36299C33DF00BB0A81 /* boom4.mp3 in Resources */,
+				016DA9E4299C33DF00BB0A81 /* Mars.png in Resources */,
+				016DA9E0299C33DF00BB0A81 /* firework.sks in Resources */,
+				016DA9DE299C33DF00BB0A81 /* boom8.mp3 in Resources */,
+				016DAA3A299C33DF00BB0A81 /* rocketFire.sks in Resources */,
+				016DA966299C32ED00BB0A81 /* Assets.xcassets in Resources */,
+				016DA9F0299C33DF00BB0A81 /* Cards.sks in Resources */,
+				016DAA02299C33DF00BB0A81 /* main1.mp3 in Resources */,
+				016DA9D6299C33DF00BB0A81 /* Venus.png in Resources */,
+				016DAA34299C33DF00BB0A81 /* play.png in Resources */,
+				016DAA0C299C33DF00BB0A81 /* normal-saturn.png in Resources */,
+				016DAA08299C33DF00BB0A81 /* main2.mp3 in Resources */,
+				016DAA28299C33DF00BB0A81 /* Ceres.png in Resources */,
+				016DA9D8299C33DF00BB0A81 /* Uranus.png in Resources */,
+				016DAA12299C33DF00BB0A81 /* Neptune.png in Resources */,
+				016DAA04299C33DF00BB0A81 /* Success.m4a in Resources */,
+				016DAA0E299C33DF00BB0A81 /* background.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016DA954299C32ED00BB0A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DAA13299C33DF00BB0A81 /* Neptune.png in Resources */,
+				016DAA03299C33DF00BB0A81 /* main1.mp3 in Resources */,
+				016DA9F7299C33DF00BB0A81 /* Path.png in Resources */,
+				016DA95E299C32ED00BB0A81 /* Main.storyboard in Resources */,
+				016DAA37299C33DF00BB0A81 /* boom4.mp3 in Resources */,
+				016DA9F5299C33DF00BB0A81 /* lightning_segment_enemy.png in Resources */,
+				016DA9FF299C33DF00BB0A81 /* Earth.png in Resources */,
+				016DA9D9299C33DF00BB0A81 /* Uranus.png in Resources */,
+				016DA9E1299C33DF00BB0A81 /* firework.sks in Resources */,
+				016DAA0B299C33DF00BB0A81 /* rocket.png in Resources */,
+				016DA9DF299C33DF00BB0A81 /* boom8.mp3 in Resources */,
+				016DAA33299C33DF00BB0A81 /* Saturn.png in Resources */,
+				016DA9F1299C33DF00BB0A81 /* Cards.sks in Resources */,
+				016DAA1F299C33DF00BB0A81 /* boom2.mp3 in Resources */,
+				016DAA11299C33DF00BB0A81 /* Makemake.png in Resources */,
+				016DAA39299C33DF00BB0A81 /* lightning_segment.png in Resources */,
+				016DAA2D299C33DF00BB0A81 /* Defeated.m4a in Resources */,
+				016DAA3D299C33DF00BB0A81 /* boom6.mp3 in Resources */,
+				016DAA29299C33DF00BB0A81 /* Ceres.png in Resources */,
+				016DA9E3299C33DF00BB0A81 /* Explosion.sks in Resources */,
+				016DA9E5299C33DF00BB0A81 /* Mars.png in Resources */,
+				016DAA41299C33DF00BB0A81 /* Begin.m4a in Resources */,
+				016DAA05299C33DF00BB0A81 /* Success.m4a in Resources */,
+				016DAA23299C33DF00BB0A81 /* boom0.mp3 in Resources */,
+				016DA9EB299C33DF00BB0A81 /* half_circle_enemy.png in Resources */,
+				016DA9FD299C33DF00BB0A81 /* Victory.m4a in Resources */,
+				016DAA2F299C33DF00BB0A81 /* sunshine.png in Resources */,
+				016DAA43299C33DF00BB0A81 /* Haumea.png in Resources */,
+				016DAA19299C33DF00BB0A81 /* Snow.sks in Resources */,
+				016DAA15299C33DF00BB0A81 /* normal.png in Resources */,
+				016DAA1B299C33DF00BB0A81 /* frame.png in Resources */,
+				016DA9DB299C33DF00BB0A81 /* swoosh.wav in Resources */,
+				016DAA31299C33DF00BB0A81 /* boom5.mp3 in Resources */,
+				016DAA3F299C33DF00BB0A81 /* boom7.mp3 in Resources */,
+				016DA9D7299C33DF00BB0A81 /* Venus.png in Resources */,
+				016DAA21299C33DF00BB0A81 /* Sun.png in Resources */,
+				016DA9E7299C33DF00BB0A81 /* Jupiter.png in Resources */,
+				016DA9F9299C33DF00BB0A81 /* half_circle.png in Resources */,
+				016DAA17299C33DF00BB0A81 /* Pluto.png in Resources */,
+				016DA9E9299C33DF00BB0A81 /* ForceAvailable.m4a in Resources */,
+				016DA967299C32ED00BB0A81 /* Assets.xcassets in Resources */,
+				016DAA2B299C33DF00BB0A81 /* boom1.mp3 in Resources */,
+				016DAA35299C33DF00BB0A81 /* play.png in Resources */,
+				016DAA3B299C33DF00BB0A81 /* rocketFire.sks in Resources */,
+				016DAA0F299C33DF00BB0A81 /* background.sks in Resources */,
+				016DA9F3299C33DF00BB0A81 /* SpecialWeapon.m4a in Resources */,
+				016DAA0D299C33DF00BB0A81 /* normal-saturn.png in Resources */,
+				016DAA25299C33DF00BB0A81 /* glass.png in Resources */,
+				016DAA1D299C33DF00BB0A81 /* boom3.mp3 in Resources */,
+				016DAA01299C33DF00BB0A81 /* Moon.png in Resources */,
+				016DA9DD299C33DF00BB0A81 /* tick.png in Resources */,
+				016DAA09299C33DF00BB0A81 /* main2.mp3 in Resources */,
+				016DA9ED299C33DF00BB0A81 /* Eris.png in Resources */,
+				016DA9FB299C33DF00BB0A81 /* Planets.sks in Resources */,
+				016DAA27299C33DF00BB0A81 /* Mercury.png in Resources */,
+				016DAA07299C33DF00BB0A81 /* ring.png in Resources */,
+				016DA9EF299C33DF00BB0A81 /* spark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016DA941299C32ED00BB0A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DAA76299C33DF00BB0A81 /* Intelligence.swift in Sources */,
+				016DAA44299C33DF00BB0A81 /* Enemy.swift in Sources */,
+				016DAA72299C33DF00BB0A81 /* PlanetsCard.swift in Sources */,
+				016DA9D0299C33DF00BB0A81 /* Player.swift in Sources */,
+				016DAA5C299C33DF00BB0A81 /* DragToSelectCard.swift in Sources */,
+				016DAA84299C33DF00BB0A81 /* LightningNode.swift in Sources */,
+				016DA9D4299C33DF00BB0A81 /* PlanetAIRule.swift in Sources */,
+				016DAA5A299C33DF00BB0A81 /* StartCard.swift in Sources */,
+				016DAA80299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */,
+				016DAA7C299C33DF00BB0A81 /* PlanetEntity.swift in Sources */,
+				016DAA70299C33DF00BB0A81 /* Gaia.swift in Sources */,
+				016DA94B299C32ED00BB0A81 /* GameViewController.swift in Sources */,
+				016DAA64299C33DF00BB0A81 /* 🚀.swift in Sources */,
+				016DAA54299C33DF00BB0A81 /* Constants.swift in Sources */,
+				016DAA58299C33DF00BB0A81 /* Card.swift in Sources */,
+				016DAA74299C33DF00BB0A81 /* Statistics.swift in Sources */,
+				016DAA68299C33DF00BB0A81 /* FailState.swift in Sources */,
+				016DAA62299C33DF00BB0A81 /* FinalResultCard.swift in Sources */,
+				016DAA60299C33DF00BB0A81 /* ClickToSelectCard.swift in Sources */,
+				016DAA52299C33DF00BB0A81 /* Rules.swift in Sources */,
+				016DAA4C299C33DF00BB0A81 /* GameView.swift in Sources */,
+				016DAA66299C33DF00BB0A81 /* NormalState.swift in Sources */,
+				016DAA4E299C33DF00BB0A81 /* InteractableScene.swift in Sources */,
+				016DAA56299C33DF00BB0A81 /* ReadyCard.swift in Sources */,
+				016DAA6C299C33DF00BB0A81 /* PlanetSceneState.swift in Sources */,
+				016DAA48299C33DF00BB0A81 /* PlanetNode.swift in Sources */,
+				016DAA50299C33DF00BB0A81 /* CardsScene.swift in Sources */,
+				016DAA7E299C33DF00BB0A81 /* PlanetsScene.swift in Sources */,
+				016DAA5E299C33DF00BB0A81 /* ForceTouchCard.swift in Sources */,
+				016DAA6E299C33DF00BB0A81 /* VictoryState.swift in Sources */,
+				016DA949299C32ED00BB0A81 /* AppDelegate.swift in Sources */,
+				016DA9D2299C33DF00BB0A81 /* SpecialWeaponProducer.swift in Sources */,
+				016DAA78299C33DF00BB0A81 /* MoveShips.swift in Sources */,
+				016DAA4A299C33DF00BB0A81 /* PopulationIndicator.swift in Sources */,
+				016DAA82299C33DF00BB0A81 /* LightningLineNode.swift in Sources */,
+				016DAA6A299C33DF00BB0A81 /* StartState.swift in Sources */,
+				016DAA7A299C33DF00BB0A81 /* Spawner.swift in Sources */,
+				016DAA46299C33DF00BB0A81 /* Role.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016DA952299C32ED00BB0A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DAA77299C33DF00BB0A81 /* Intelligence.swift in Sources */,
+				016DAA45299C33DF00BB0A81 /* Enemy.swift in Sources */,
+				016DAA73299C33DF00BB0A81 /* PlanetsCard.swift in Sources */,
+				016DA9D1299C33DF00BB0A81 /* Player.swift in Sources */,
+				016DAA5D299C33DF00BB0A81 /* DragToSelectCard.swift in Sources */,
+				016DAA85299C33DF00BB0A81 /* LightningNode.swift in Sources */,
+				016DA9D5299C33DF00BB0A81 /* PlanetAIRule.swift in Sources */,
+				016DAA5B299C33DF00BB0A81 /* StartCard.swift in Sources */,
+				016DAA81299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */,
+				016DAA7D299C33DF00BB0A81 /* PlanetEntity.swift in Sources */,
+				016DAA71299C33DF00BB0A81 /* Gaia.swift in Sources */,
+				016DA95B299C32ED00BB0A81 /* GameViewController.swift in Sources */,
+				016DAA65299C33DF00BB0A81 /* 🚀.swift in Sources */,
+				016DAA55299C33DF00BB0A81 /* Constants.swift in Sources */,
+				016DAA59299C33DF00BB0A81 /* Card.swift in Sources */,
+				016DAA75299C33DF00BB0A81 /* Statistics.swift in Sources */,
+				016DAA69299C33DF00BB0A81 /* FailState.swift in Sources */,
+				016DAA63299C33DF00BB0A81 /* FinalResultCard.swift in Sources */,
+				016DAA61299C33DF00BB0A81 /* ClickToSelectCard.swift in Sources */,
+				016DAA53299C33DF00BB0A81 /* Rules.swift in Sources */,
+				016DAA4D299C33DF00BB0A81 /* GameView.swift in Sources */,
+				016DAA67299C33DF00BB0A81 /* NormalState.swift in Sources */,
+				016DAA4F299C33DF00BB0A81 /* InteractableScene.swift in Sources */,
+				016DAA57299C33DF00BB0A81 /* ReadyCard.swift in Sources */,
+				016DAA6D299C33DF00BB0A81 /* PlanetSceneState.swift in Sources */,
+				016DAA49299C33DF00BB0A81 /* PlanetNode.swift in Sources */,
+				016DAA51299C33DF00BB0A81 /* CardsScene.swift in Sources */,
+				016DAA7F299C33DF00BB0A81 /* PlanetsScene.swift in Sources */,
+				016DAA5F299C33DF00BB0A81 /* ForceTouchCard.swift in Sources */,
+				016DAA6F299C33DF00BB0A81 /* VictoryState.swift in Sources */,
+				016DA959299C32ED00BB0A81 /* AppDelegate.swift in Sources */,
+				016DA9D3299C33DF00BB0A81 /* SpecialWeaponProducer.swift in Sources */,
+				016DAA79299C33DF00BB0A81 /* MoveShips.swift in Sources */,
+				016DAA4B299C33DF00BB0A81 /* PopulationIndicator.swift in Sources */,
+				016DAA83299C33DF00BB0A81 /* LightningLineNode.swift in Sources */,
+				016DAA6B299C33DF00BB0A81 /* StartState.swift in Sources */,
+				016DAA7B299C33DF00BB0A81 /* Spawner.swift in Sources */,
+				016DAA47299C33DF00BB0A81 /* Role.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		016DA94C299C32ED00BB0A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016DA94D299C32ED00BB0A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		016DA94F299C32ED00BB0A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016DA950299C32ED00BB0A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		016DA95C299C32ED00BB0A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016DA95D299C32ED00BB0A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016DA968299C32ED00BB0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		016DA969299C32ED00BB0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		016DA96B299C32ED00BB0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PK5KHJJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror";
+				PRODUCT_NAME = "Solar Conqueror";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		016DA96C299C32ED00BB0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PK5KHJJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror";
+				PRODUCT_NAME = "Solar Conqueror";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016DA96E299C32ED00BB0A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Solar Conqueror macOS/Solar_Conqueror_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PK5KHJJ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror";
+				PRODUCT_NAME = "Solar Conqueror";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		016DA96F299C32ED00BB0A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Solar Conqueror macOS/Solar_Conqueror_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6PK5KHJJ2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pride1952.Solar-Conqueror";
+				PRODUCT_NAME = "Solar Conqueror";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016DA93B299C32ED00BB0A81 /* Build configuration list for PBXProject "Solar Conqueror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DA968299C32ED00BB0A81 /* Debug */,
+				016DA969299C32ED00BB0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016DA96A299C32ED00BB0A81 /* Build configuration list for PBXNativeTarget "Solar Conqueror iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DA96B299C32ED00BB0A81 /* Debug */,
+				016DA96C299C32ED00BB0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016DA96D299C32ED00BB0A81 /* Build configuration list for PBXNativeTarget "Solar Conqueror macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DA96E299C32ED00BB0A81 /* Debug */,
+				016DA96F299C32ED00BB0A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 016DA938299C32ED00BB0A81 /* Project object */;
+}

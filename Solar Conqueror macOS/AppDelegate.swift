@@ -1,28 +1,29 @@
 //
 //  AppDelegate.swift
-//  Solar_Conqueror_Sources
+//  Solar Conqueror macOS
 //
-//  Created by 왕소림 on 2020/8/13.
-//  Copyright © 2020 Xiaolin Wang. All rights reserved.
+//  Created by Xiaolin Wang on 14/02/2023.
 //
-
 
 import Cocoa
 
-@NSApplicationMain
+@main
 class AppDelegate: NSObject, NSApplicationDelegate {
-    
-    
+
+
+
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
-    
+
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-    
+
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         return true
     }
-    
+
+
 }
+
