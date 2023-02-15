@@ -14,7 +14,7 @@ enum Difficulty: Int {
 struct Preferences {
     public static var difficulty: Difficulty {
         get {
-            Difficulty(rawValue: UserDefaults.standard.integer(forKey: "difficulty")) ?? .easy
+            Difficulty(rawValue: UserDefaults.standard.integer(forKey: "difficulty")) ?? .normal
         }
         set {
             UserDefaults.standard.set(newValue.rawValue, forKey: "difficulty")
