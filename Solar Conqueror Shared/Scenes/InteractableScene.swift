@@ -145,6 +145,21 @@ public class InteractableScene: SKScene {
             }
         }
     }
+    
+    override public func rightMouseUp(with event: NSEvent) {
+        if let planet = self.planetAtThisLocation(point: event.location(in: self)) {
+            if planet.currentOwner == .enemy {
+                if player.specialWeaponsLeft > 0 {
+                    player.specialWeaponsLeft -= 1
+                    planet.forceTouched(location: event.location(in: planet))
+                } else {
+                    planet.forceTouchFailed()
+                }
+            } else {
+                planet.forceTouchFailed()
+            }
+        }
+    }
 #endif
     
 #if os(iOS)
