@@ -2,8 +2,8 @@ import Foundation
 import GameplayKit
 
 class Intelligence: GKComponent {
-    var timeToLastEvaluation: TimeInterval = 0.2
-    let evaluationInterval: TimeInterval = 0.5
+    var timeToLastEvaluation: TimeInterval
+    var evaluationInterval: TimeInterval
     let attackGradeThreshold: Float = 0.3
     let attackEvaluateRuleSystem = GKRuleSystem()
     let vulnerabilityEvaluateRuleSystem = GKRuleSystem()
@@ -39,6 +39,17 @@ class Intelligence: GKComponent {
             Rules.hisLimitForSpecialWeaponRule,
             Rules.distanceForSpecialWeaponRule
             ])
+        switch Preferences.difficulty {
+        case .easy:
+            timeToLastEvaluation = 0.7
+            evaluationInterval = 1.0
+        case .normal:
+            timeToLastEvaluation = 0.2
+            evaluationInterval = 0.5
+        case .hard:
+            timeToLastEvaluation = 0
+            evaluationInterval = 0.1
+        }
         super.init()
     }
     

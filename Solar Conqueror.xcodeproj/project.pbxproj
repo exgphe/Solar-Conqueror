@@ -196,6 +196,8 @@
 		016DAA83299C33DF00BB0A81 /* LightningLineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CE299C33DF00BB0A81 /* LightningLineNode.swift */; };
 		016DAA84299C33DF00BB0A81 /* LightningNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CF299C33DF00BB0A81 /* LightningNode.swift */; };
 		016DAA85299C33DF00BB0A81 /* LightningNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9CF299C33DF00BB0A81 /* LightningNode.swift */; };
+		01E21885299CD2290042FECE /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E21884299CD2290042FECE /* Preferences.swift */; };
+		01E21886299CD2290042FECE /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E21884299CD2290042FECE /* Preferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -300,6 +302,7 @@
 		016DA9CD299C33DF00BB0A81 /* LightningBoltNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightningBoltNode.swift; sourceTree = "<group>"; };
 		016DA9CE299C33DF00BB0A81 /* LightningLineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightningLineNode.swift; sourceTree = "<group>"; };
 		016DA9CF299C33DF00BB0A81 /* LightningNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightningNode.swift; sourceTree = "<group>"; };
+		01E21884299CD2290042FECE /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +349,7 @@
 				016DA9B2299C33DF00BB0A81 /* Rules.swift */,
 				016DA9BD299C33DF00BB0A81 /* States */,
 				016DA940299C32ED00BB0A81 /* Assets.xcassets */,
+				01E21884299CD2290042FECE /* Preferences.swift */,
 			);
 			path = "Solar Conqueror Shared";
 			sourceTree = "<group>";
@@ -744,6 +748,7 @@
 				016DAA5A299C33DF00BB0A81 /* StartCard.swift in Sources */,
 				016DAA80299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */,
 				016DAA7C299C33DF00BB0A81 /* PlanetEntity.swift in Sources */,
+				01E21885299CD2290042FECE /* Preferences.swift in Sources */,
 				016DA94B299C32ED00BB0A81 /* GameViewController.swift in Sources */,
 				016DAA64299C33DF00BB0A81 /* 🚀.swift in Sources */,
 				016DAA54299C33DF00BB0A81 /* Constants.swift in Sources */,
@@ -788,6 +793,7 @@
 				016DAA5B299C33DF00BB0A81 /* StartCard.swift in Sources */,
 				016DAA81299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */,
 				016DAA7D299C33DF00BB0A81 /* PlanetEntity.swift in Sources */,
+				01E21886299CD2290042FECE /* Preferences.swift in Sources */,
 				016DA95B299C32ED00BB0A81 /* GameViewController.swift in Sources */,
 				016DAA65299C33DF00BB0A81 /* 🚀.swift in Sources */,
 				016DAA55299C33DF00BB0A81 /* Constants.swift in Sources */,
