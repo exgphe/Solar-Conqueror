@@ -233,7 +233,7 @@ public class CardsScene: InteractableScene {
         }
     }
     
-    func showResult(screenShotTexture: SKTexture, result: resultType ) {
+    func showResult(screenShotTexture: SKTexture, result: ResultType ) {
         let planetsCard = self.cards[6] as! PlanetsCard
         let finalResultCard = self.cards[7] as! FinalResultCard
         planetsCard.screenShot.texture = screenShotTexture

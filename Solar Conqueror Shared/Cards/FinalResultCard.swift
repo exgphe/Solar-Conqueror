@@ -79,7 +79,7 @@ class FinalResultCard: Card {
         self.title?.run(SKAction.stop())
     }
     
-    func showResult(result: resultType) {
+    func showResult(result: ResultType) {
         switch result {
         case .victory:
             self.victoryResult.isHidden = false

@@ -104,4 +104,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-Solar_Conqueror_Sources.xcodeproj/xcuserdata/
+.DS_Store

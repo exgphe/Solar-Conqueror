@@ -27,7 +27,7 @@ let Limits = ["Earth":50,"Moon":10,"Venus":50,"Mars":50,"Uranus":50,"Saturn":90,
 
 let spawnIntervalFor = ["Earth":1.0, "Moon":1.0, "Venus":1.0, "Mars":1.0, "Uranus":1.0, "Saturn":0.75, "Neptune":1.65, "Mercury":1.25, "Jupiter":0.75, "Sun":0.5, "Pluto":1.25]
 
-public enum resultType {
+public enum ResultType {
     case victory, defeated
 }
 
