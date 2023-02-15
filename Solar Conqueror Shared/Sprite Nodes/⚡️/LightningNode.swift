@@ -52,15 +52,15 @@ class LightningNode: SKSpriteNode {
             let numbers: Int
             switch self.size.width {
             case 0..<60:
-                numbers = Int(arc4random_uniform(11) + 10) // 10~20
+                numbers = Int.random(in: 10...20) // 10~20
             case 60..<200:
-                numbers = Int(arc4random_uniform(11) + 20) // 20~30
+                numbers = Int.random(in: 20...30) // 20~30
             default:
-                numbers = Int(arc4random_uniform(11) + 40) // 40~50
+                numbers = Int.random(in: 40...50) // 40~50
             }
             for _ in 0..<numbers {
                 let rayon = self.size.height / 2.0
-                let randomAngle = CGFloat(arc4random_uniform(UInt32(Float.pi * 2 * 100))) / 100.0
+                let randomAngle = Double.random(in: 0...2*Double.pi)
                 //                let randomX = CGFloat(arc4random_uniform(UInt32(self.size.width) * 10)) / 10.0 - self.size.width * 0.5
                 //                let randomY = CGFloat(arc4random_uniform(UInt32(self.size.height) * 10)) / 10.0 - self.size.height * 0.5
                 //                if self.startPoint != nil {

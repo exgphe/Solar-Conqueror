@@ -62,7 +62,7 @@ public class InteractableScene: SKScene {
         scaleMode = .aspectFit
     }
     
-    #if os(macOS)
+#if os(macOS)
     override public func mouseDown(with event: NSEvent) {
         super.mouseDown(with: event)
         if let planet = planetAtThisLocation(point: event.location(in: self)) {
@@ -145,7 +145,82 @@ public class InteractableScene: SKScene {
             }
         }
     }
-    #endif
+#endif
+    
+#if os(iOS)
+    
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        if touches.count == 1 {
+            if let touch = touches.first,
+               let planet = planetAtThisLocation(point: touch.location(in: self)) {
+                if planet.currentOwner == Owner.player {
+                    self.isSingleClickingToSelect = true
+                }
+            }
+        } else {
+            // TODO multi-touch
+        }
+    }
+    
+    public override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesMoved(touches, with: event)
+        for touch in touches {
+            let location = touch.location(in: self)
+            let previousLocation = touch.previousLocation(in: self)
+            
+            let translation = CGPoint(x: location.x - previousLocation.x, y: location.y - previousLocation.y)
+            if translation == CGPoint.zero {
+                continue
+            }
+            if let planet = planetAtThisLocation(point: touch.location(in: self)) {
+                selectAPlanet(planet: planet)
+            } else {
+                self.pointingPlanet = nil
+            }
+            self.isSingleClickingToSelect = false
+        }
+    }
+    
+    public override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesEnded(touches, with: event)
+        //        print("up\(String(describing: planetAtThisLocation(point: event.location(in: self)) ))")
+        guard let touch = touches.first else {return} // TODO handle multitouch
+        if let planet = planetAtThisLocation(point: touch.location(in: self)) {
+            if !self.forceTouching {
+                if self.isSingleClickingToSelect {
+                    //                print("ha2")
+                    if self.selectedPlanets.isEmpty {
+                        //                    print("ha3")
+                        selectAPlanet(planet: planet)
+                    } else {
+                        //                    print("ha4")
+                        player.moveComponent.send(from: selectedPlanets, to: planet)
+                        self.deselectPlanets()
+                    }
+                } else {
+                    player.moveComponent.send(from: selectedPlanets, to: planet)
+                    self.deselectPlanets()
+                }
+            } else {
+                self.forceTouching = false
+            }
+        } else {
+            self.isSingleClickingToSelect = false
+            self.deselectPlanets()
+        }
+        self.pointingPlanet = nil
+        self.forceTouching = false
+    }
+    
+    public override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesCancelled(touches, with: event)
+        self.deselectPlanets()
+        self.pointingPlanet = nil
+        self.isSingleClickingToSelect = false
+    }
+    
+#endif
     
     override public func didMove(to view: SKView) {
         super.didMove(to: view)
@@ -218,9 +293,9 @@ public class InteractableScene: SKScene {
             originalToPosition = to.position
         }
         for i in 0..<number {
-            let fromPosition = CGPoint(x:originalFromPosition.x + CGFloat(arc4random_uniform(UInt32(from.size.width*5)))/10.0-from.size.width * 0.25, y:originalFromPosition.y + CGFloat(arc4random_uniform(UInt32(from.size.height*3)))/10.0-from.size.height * 0.15)
+            let fromPosition = CGPoint(x:originalFromPosition.x + CGFloat.random(in: -from.size.width * 0.25...from.size.width*0.25), y:originalFromPosition.y + CGFloat.random(in: -from.size.height*0.15...from.size.height*0.15))
             //  print(fromPosition)
-            let toPosition = CGPoint(x:originalToPosition.x + CGFloat(arc4random_uniform(UInt32(to.size.width*1)))/10.0-to.size.width * 0.05, y:originalToPosition.y + CGFloat(arc4random_uniform(UInt32(to.size.height*1)))/10.0-to.size.height * 0.05)
+            let toPosition = CGPoint(x:originalToPosition.x + CGFloat.random(in: -to.size.width * 0.05...to.size.width * 0.05), y:originalToPosition.y + CGFloat.random(in: -to.size.height * 0.05...to.size.height * 0.05))
             let differenceX = toPosition.x - fromPosition.x
             let differenceY = toPosition.y - fromPosition.y
             let travelTime = TimeInterval(sqrt(pow(differenceX, 2) + pow(differenceY, 2)) * 0.01)

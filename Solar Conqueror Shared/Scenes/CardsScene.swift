@@ -129,6 +129,51 @@ public class CardsScene: InteractableScene {
     }
     #endif
     
+    #if os(iOS)
+    // TODO handle multitouch
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        guard let touch = touches.first else {return}
+        let location = touch.location(in: self)
+        for card in self.cards {
+            card.mouseDownFromScene(nodes: self.nodes(at: location))
+        }
+        let light = SKLightNode()
+        light.falloff = 5.0
+        light.position = location
+        self.addChild(light)
+        let blink = SKAction.customAction(withDuration: 0.4) { (node: SKNode, time: CGFloat) in
+            // (0, 5) (0.1, 1.5)
+            (node as! SKLightNode).falloff = 50 * time * time - 20 * time + 5
+        }
+        
+        light.run(SKAction.sequence([blink, SKAction.removeFromParent()]))
+    }
+    
+    public override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesMoved(touches, with: event)
+        guard let touch = touches.first else {return}
+        let location = touch.location(in: self)
+        for card in self.cards {
+            card.mouseDraggedFromScene(nodes: self.nodes(at: location))
+        }
+    }
+    
+    public override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesEnded(touches, with: event)
+        guard let touch = touches.first else {return}
+        let location = touch.location(in: self)
+        for card in self.cards {
+            card.mouseUpFromScene(nodes: self.nodes(at: location))
+        }
+    }
+    
+    public override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesCancelled(touches, with: event)
+        // TODO
+    }
+    #endif
+    
     override public func update(_ currentTime: TimeInterval) {
         super.update(currentTime)
         let card = self.cards[self.currentCardIndex]

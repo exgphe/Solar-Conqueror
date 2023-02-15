@@ -176,8 +176,6 @@
 		016DAA6D299C33DF00BB0A81 /* PlanetSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C1299C33DF00BB0A81 /* PlanetSceneState.swift */; };
 		016DAA6E299C33DF00BB0A81 /* VictoryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C2299C33DF00BB0A81 /* VictoryState.swift */; };
 		016DAA6F299C33DF00BB0A81 /* VictoryState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C2299C33DF00BB0A81 /* VictoryState.swift */; };
-		016DAA70299C33DF00BB0A81 /* Gaia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C3299C33DF00BB0A81 /* Gaia.swift */; };
-		016DAA71299C33DF00BB0A81 /* Gaia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C3299C33DF00BB0A81 /* Gaia.swift */; };
 		016DAA72299C33DF00BB0A81 /* PlanetsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */; };
 		016DAA73299C33DF00BB0A81 /* PlanetsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */; };
 		016DAA74299C33DF00BB0A81 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016DA9C6299C33DF00BB0A81 /* Statistics.swift */; };
@@ -292,7 +290,6 @@
 		016DA9C0299C33DF00BB0A81 /* StartState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartState.swift; sourceTree = "<group>"; };
 		016DA9C1299C33DF00BB0A81 /* PlanetSceneState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetSceneState.swift; sourceTree = "<group>"; };
 		016DA9C2299C33DF00BB0A81 /* VictoryState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoryState.swift; sourceTree = "<group>"; };
-		016DA9C3299C33DF00BB0A81 /* Gaia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gaia.swift; sourceTree = "<group>"; };
 		016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsCard.swift; sourceTree = "<group>"; };
 		016DA9C6299C33DF00BB0A81 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		016DA9C7299C33DF00BB0A81 /* Intelligence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intelligence.swift; sourceTree = "<group>"; };
@@ -336,27 +333,17 @@
 		016DA93C299C32ED00BB0A81 /* Solar Conqueror Shared */ = {
 			isa = PBXGroup;
 			children = (
-				016DA9CC299C33DF00BB0A81 /* ⚡️ */,
-				016DA9BC299C33DF00BB0A81 /* 🚀.swift */,
+				016DAA88299C4C8600BB0A81 /* Sprite Nodes */,
+				016DAA87299C45E300BB0A81 /* Scenes */,
+				016DAA86299C45B900BB0A81 /* Roles */,
 				016DA9B4299C33DF00BB0A81 /* Cards */,
-				016DA9B1299C33DF00BB0A81 /* CardsScene.swift */,
 				016DA9C5299C33DF00BB0A81 /* Components */,
 				016DA9B3299C33DF00BB0A81 /* Constants.swift */,
-				016DA9AB299C33DF00BB0A81 /* Enemy.swift */,
-				016DA9C3299C33DF00BB0A81 /* Gaia.swift */,
 				016DA9AF299C33DF00BB0A81 /* GameView.swift */,
-				016DA9B0299C33DF00BB0A81 /* InteractableScene.swift */,
 				016DA972299C33DE00BB0A81 /* PlanetAIRule.swift */,
 				016DA9CA299C33DF00BB0A81 /* PlanetEntity.swift */,
-				016DA9AD299C33DF00BB0A81 /* PlanetNode.swift */,
-				016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */,
-				016DA9CB299C33DF00BB0A81 /* PlanetsScene.swift */,
-				016DA970299C33DE00BB0A81 /* Player.swift */,
-				016DA9AE299C33DF00BB0A81 /* PopulationIndicator.swift */,
 				016DA973299C33DE00BB0A81 /* Resources */,
-				016DA9AC299C33DF00BB0A81 /* Role.swift */,
 				016DA9B2299C33DF00BB0A81 /* Rules.swift */,
-				016DA971299C33DE00BB0A81 /* SpecialWeaponProducer.swift */,
 				016DA9BD299C33DF00BB0A81 /* States */,
 				016DA940299C32ED00BB0A81 /* Assets.xcassets */,
 			);
@@ -466,6 +453,7 @@
 				016DA9B9299C33DF00BB0A81 /* ForceTouchCard.swift */,
 				016DA9BA299C33DF00BB0A81 /* ClickToSelectCard.swift */,
 				016DA9BB299C33DF00BB0A81 /* FinalResultCard.swift */,
+				016DA9C4299C33DF00BB0A81 /* PlanetsCard.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -485,6 +473,7 @@
 		016DA9C5299C33DF00BB0A81 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				016DA971299C33DE00BB0A81 /* SpecialWeaponProducer.swift */,
 				016DA9C6299C33DF00BB0A81 /* Statistics.swift */,
 				016DA9C7299C33DF00BB0A81 /* Intelligence.swift */,
 				016DA9C8299C33DF00BB0A81 /* MoveShips.swift */,
@@ -501,6 +490,37 @@
 				016DA9CF299C33DF00BB0A81 /* LightningNode.swift */,
 			);
 			path = "⚡️";
+			sourceTree = "<group>";
+		};
+		016DAA86299C45B900BB0A81 /* Roles */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9AC299C33DF00BB0A81 /* Role.swift */,
+				016DA9AB299C33DF00BB0A81 /* Enemy.swift */,
+				016DA970299C33DE00BB0A81 /* Player.swift */,
+			);
+			path = Roles;
+			sourceTree = "<group>";
+		};
+		016DAA87299C45E300BB0A81 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9B1299C33DF00BB0A81 /* CardsScene.swift */,
+				016DA9B0299C33DF00BB0A81 /* InteractableScene.swift */,
+				016DA9CB299C33DF00BB0A81 /* PlanetsScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		016DAA88299C4C8600BB0A81 /* Sprite Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				016DA9CC299C33DF00BB0A81 /* ⚡️ */,
+				016DA9BC299C33DF00BB0A81 /* 🚀.swift */,
+				016DA9AD299C33DF00BB0A81 /* PlanetNode.swift */,
+				016DA9AE299C33DF00BB0A81 /* PopulationIndicator.swift */,
+			);
+			path = "Sprite Nodes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -724,7 +744,6 @@
 				016DAA5A299C33DF00BB0A81 /* StartCard.swift in Sources */,
 				016DAA80299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */,
 				016DAA7C299C33DF00BB0A81 /* PlanetEntity.swift in Sources */,
-				016DAA70299C33DF00BB0A81 /* Gaia.swift in Sources */,
 				016DA94B299C32ED00BB0A81 /* GameViewController.swift in Sources */,
 				016DAA64299C33DF00BB0A81 /* 🚀.swift in Sources */,
 				016DAA54299C33DF00BB0A81 /* Constants.swift in Sources */,
@@ -769,7 +788,6 @@
 				016DAA5B299C33DF00BB0A81 /* StartCard.swift in Sources */,
 				016DAA81299C33DF00BB0A81 /* LightningBoltNode.swift in Sources */,
 				016DAA7D299C33DF00BB0A81 /* PlanetEntity.swift in Sources */,
-				016DAA71299C33DF00BB0A81 /* Gaia.swift in Sources */,
 				016DA95B299C32ED00BB0A81 /* GameViewController.swift in Sources */,
 				016DAA65299C33DF00BB0A81 /* 🚀.swift in Sources */,
 				016DAA55299C33DF00BB0A81 /* Constants.swift in Sources */,

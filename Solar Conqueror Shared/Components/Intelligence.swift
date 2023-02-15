@@ -64,7 +64,7 @@ class Intelligence: GKComponent {
         //        print("a")
         var shouldUseSpecialWeapon = false
         if self.me.specialWeaponsLeft >= maximumSpecialWeaponAmount {
-            if arc4random_uniform(10) == 0 { // 0/10 chance to evoke
+            if Int.random(in: 0..<10) == 0 { // 0/10 chance to evoke
                 shouldUseSpecialWeapon = true
             }
         }
@@ -128,19 +128,19 @@ class Intelligence: GKComponent {
             var chance = true
             if maxAttackGrade != nil {
                 if maxAttackGrade! <= attackGradeThreshold {
-                    chance = (arc4random_uniform(6) == 1)
+                    chance = (Int.random(in: 0..<6) == 1)
                 }
             }
             if chance && armyPopulation > targetPlanet.population {
                 me.moveComponent.send(from: willAttackPlanets, to: targetPlanet)
             } else {
-                if chance && arc4random_uniform(3) == 1 { //  1/3 chances to attack
+                if chance && Int.random(in: 0..<3) == 1 { //  1/3 chances to attack
                     me.moveComponent.send(from: willAttackPlanets, to: targetPlanet)
                 }
             }
         } else {
             if let beginPlanet = attackGradesSorted.first?.key {
-                if arc4random_uniform(3) == 1 { //  1/3 chances to move fleets
+                if Int.random(in: 0..<3) == 1 { //  1/3 chances to move fleets
                     me.moveComponent.send(from: [beginPlanet], to: targetPlanet)
                 }
             }

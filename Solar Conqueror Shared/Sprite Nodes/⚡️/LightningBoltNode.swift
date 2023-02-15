@@ -71,8 +71,8 @@ class LightningBoltNode: SKNode {
         else {
             var mid_x = Double(x2+x1)*0.5
             var mid_y = Double(y2+y1)*0.5
-            mid_x += (Double(arc4random_uniform(100))*0.01-0.5)*displace
-            mid_y += (Double(arc4random_uniform(100))*0.01-0.5)*displace
+            mid_x += Double.random(in: -0.5...0.5)*displace
+            mid_y += Double.random(in: -0.5...0.5)*displace
             let halfDisplace = displace*0.5
             self.createBolt(x1, y1: y1, x2: CGFloat(mid_x), y2: CGFloat(mid_y), displace: halfDisplace)
             self.createBolt(CGFloat(mid_x), y1: CGFloat(mid_y), x2: x2, y2: y2, displace: halfDisplace)

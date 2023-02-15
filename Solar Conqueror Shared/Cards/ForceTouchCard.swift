@@ -37,6 +37,9 @@ class ForceTouchCard: Card {
     }
     
     override func isTutorialCompleted() -> Bool {
+        #if os(iOS)
+        return true
+        #endif
         if self.firePlanet.isForceTouched && self.action(forKey: "delay") == nil {
             self.run(SKAction.sequence([SKAction.wait(forDuration: 5.0), SKAction.run {
                 self.tutorialCompleted = true

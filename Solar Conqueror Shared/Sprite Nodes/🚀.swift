@@ -40,7 +40,7 @@ class 🚀: SKSpriteNode {
         let rotate2 = SKAction.scale(to:1.0,duration: 0.5) // 2.5D rotation
         var presequence = [SKAction]()
         self.run(SKAction.rotate(byAngle: -CGFloat.pi/4.0, duration: 0))
-        if(arc4random_uniform(2)==1) {
+        if(Bool.random()) {
             presequence = [SKAction.moveTo(x:halfWidth, duration:remainingTime),rotate1,SKAction.moveTo(x:-halfWidth, duration:duration),rotate2] // First go to right
         } else {
             presequence = [SKAction.scale(to: -1.0, duration: 0),SKAction.moveTo(x:-halfWidth, duration:duration-remainingTime),rotate2] // First go to left

@@ -133,7 +133,7 @@ public class PlanetNode: SKSpriteNode {
     func addRocket() {
         let rocket = 🚀(owner: self.currentOwner)
         self.addChild(rocket)
-        rocket.position = CGPoint(x: CGFloat(arc4random_uniform(UInt32(self.frame.height*10)))/10.0-self.frame.height/2.0, y: CGFloat(arc4random_uniform(UInt32(self.frame.height*3)))/10.0-self.frame.height*0.15) // To make the rocket position random at all x and 40% of y
+        rocket.position = CGPoint(x: CGFloat.random(in: -self.frame.height/2.0...self.frame.height/2.0), y: CGFloat.random(in: -self.frame.height*0.15...self.frame.height*0.15)) // To make the rocket position random at all x and 40% of y
         //        print(rocket.position)
         rocket.patrol(halfWidth: self.frame.height / 2)
         
@@ -154,12 +154,12 @@ public class PlanetNode: SKSpriteNode {
 //        light.falloff = 2
         self.addChild(explosion)
 //        explosion.addChild(light)
-        let x = CGFloat(arc4random_uniform(UInt32(self.size.width))) - self.size.width / 2
-        let y = CGFloat(arc4random_uniform(UInt32(self.size.height * 3)))/10.0 - self.size.height * 0.15
+        let x = CGFloat.random(in: -self.size.width/2.0...self.size.width/2.0)
+        let y = CGFloat.random(in: -self.size.height*0.15...self.size.height*0.15)
         explosion.position = CGPoint(x: x, y: y)
         explosion.run(SKAction.sequence([SKAction.wait(forDuration: 1.0),SKAction.removeFromParent()]))
         if playSound {
-            let boomNum = arc4random_uniform(9)
+            let boomNum = Int.random(in: 0...8)
             self.run(SKAction.playSoundFileNamed("boom\(boomNum)", waitForCompletion: false))
         }
     }

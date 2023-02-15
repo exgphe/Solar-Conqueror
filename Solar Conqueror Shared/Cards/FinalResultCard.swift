@@ -87,8 +87,8 @@ class FinalResultCard: Card {
             // Have some firework
             let realFrame = self.calculateAccumulatedFrame()
             let randomPosition = SKAction.run {
-                let x = CGFloat(arc4random_uniform(UInt32(realFrame.width * 10.0))) / 10.0 - realFrame.width / 2.0
-                let y = CGFloat(arc4random_uniform(UInt32(realFrame.height * 10.0))) / 10.0 - realFrame.height / 2.0
+                let x = CGFloat.random(in: -realFrame.width / 2.0...realFrame.width/2.0)
+                let y = CGFloat.random(in: -realFrame.height / 2.0...realFrame.height/2.0)
                 
                 self.firework.particlePosition = CGPoint(x: x, y: y)
             }
